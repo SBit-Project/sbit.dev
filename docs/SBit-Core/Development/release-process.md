@@ -22,9 +22,9 @@ Release Process
 ### Before every major release
 
 * On both the master branch and the new release branch:
-  - update `CLIENT_VERSION_MINOR` in [`configure.ac`](../configure.ac)
-  - update `CLIENT_VERSION_MINOR`, `PACKAGE_VERSION`, and `PACKAGE_STRING` in [`build_msvc/bitcoin_config.h`](/build_msvc/bitcoin_config.h)
-* On the new release branch in [`configure.ac`](../configure.ac) and [`build_msvc/bitcoin_config.h`](/build_msvc/bitcoin_config.h) 
+  - update `CLIENT_VERSION_MINOR` in [`configure.ac`](https://github.com/SBit-Project/configure.ac)
+  - update `CLIENT_VERSION_MINOR`, `PACKAGE_VERSION`, and `PACKAGE_STRING` in [`build_msvc/bitcoin_config.h`](https://github.com/SBit-Project/sbit/build_msvc/bitcoin_config.h)
+* On the new release branch in [`configure.ac`](https://github.com/SBit-Project/configure.ac) and [`build_msvc/bitcoin_config.h`](https://github.com/SBit-Project/sbit/build_msvc/bitcoin_config.h) 
   - set `CLIENT_VERSION_REVISION` to `0`
   - set `CLIENT_VERSION_IS_RELEASE` to `true`
 

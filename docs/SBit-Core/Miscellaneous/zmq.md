@@ -115,7 +115,7 @@ ZeroMQ endpoint specifiers for TCP (and others) are documented in the
 Client side, then, the ZeroMQ subscriber socket must have the
 ZMQ_SUBSCRIBE option set to one or either of these prefixes (for
 instance, just `hash`); without doing so will result in no messages
-arriving. Please see [`contrib/zmq/zmq_sub.py`](/contrib/zmq/zmq_sub.py) for a working example.
+arriving. Please see [`contrib/zmq/zmq_sub.py`](https://github.com/SBit-Project/sbit/contrib/zmq/zmq_sub.py) for a working example.
 
 The ZMQ_PUB socket's ZMQ_TCP_KEEPALIVE option is enabled. This means that
 the underlying SO_KEEPALIVE option is enabled when using a TCP transport.

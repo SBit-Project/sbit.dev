@@ -184,7 +184,7 @@ but the above styles are favored.
 
 :::tip
 - Javadoc and all valid Doxygen comments are stripped from Doxygen source code
-  previews (`STRIP_CODE_COMMENTS = YES` in [Doxyfile.in](doc/Doxyfile.in)). If
+  previews (`STRIP_CODE_COMMENTS = YES` in 'Doxyfile.in'). If
   you want a comment to be preserved, it must instead use `//` or `/* */`.
 :::
 
@@ -351,7 +351,7 @@ will fail with a linker error when testing the sanitizer flags.
 The test suite should pass cleanly with the `thread` and `undefined` sanitizers,
 but there are a number of known problems when using the `address` sanitizer. The
 address sanitizer is known to fail in
-[sha256_sse4::Transform](/src/crypto/sha256_sse4.cpp) which makes it unusable
+[sha256_sse4::Transform](https://github.com/SBit-Project/src/crypto/sha256_sse4.cpp) which makes it unusable
 unless you also use `--disable-asm` when running configure. We would like to fix
 sanitizer issues, so please send pull requests if you can fix any errors found
 by the address sanitizer (or any other sanitizer).
