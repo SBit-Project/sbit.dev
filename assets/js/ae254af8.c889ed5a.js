@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksbit_website=self.webpackChunksbit_website||[]).push([[9207],{8296:function(e){e.exports=JSON.parse('{"permalink":"/sbit.dev/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
