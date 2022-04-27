@@ -24,7 +24,7 @@ module.exports = {
         image: 'img/sbit_logo.svg',
         additionalLanguages: ['sol', 'ini', 'conf'],
         announcementBar: {
-            id: 'follow-us',
+            id: 'warn',
             content:
                 'SBit is still under active development, be aware that breaking changes may occur.',
             backgroundColor: '#FF5B79',
