@@ -9,26 +9,26 @@ SBIT is a powerful new peer-to-peer platform for the next generation of financia
 
 ## Addresses and Key Management
 
-* [Addresses](address)
-* [Using Different Networks](networks)
-* [Private Keys](privatekey) and [Public Keys](publickey)
-* [Hierarchically-derived Private and Public Keys](hierarchical)
+* [Addresses](address.md)
+* [Using Different Networks](networks.md)
+* [Private Keys](privatekey.md) and [Public Keys](publickey.md)
+* [Hierarchically-derived Private and Public Keys](hierarchical.md)
 
 ## Payment Handling
-* [Using Different Units](unit)
-* [Acknowledging and Requesting Payments: SBIT URIs](uri)
-* [The Transaction Class](transaction)
+* [Using Different Units](unit.md)
+* [Acknowledging and Requesting Payments: SBIT URIs](uri.md)
+* [The Transaction Class](transaction.md)
 
 ## SBIT Internals
-* [Scripts](script)
-* [Block](block)
+* [Scripts](script.md)
+* [Block](block.md)
 
 ## Extra
-* [Crypto](crypto)
-* [Encoding](encoding)
+* [Crypto](crypto.md)
+* [Encoding](encoding.md)
 
 ## Module Development
-* [Browser Builds](browser)
+* [Browser Builds](browser.md)
 
 ## Examples 
 

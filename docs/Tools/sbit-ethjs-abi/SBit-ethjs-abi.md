@@ -94,8 +94,8 @@ contract SimpleStore {
 
 You'll find more detailed information on using `SBit ethjs-abi` and tailoring it to your needs in our guides:
 
-- [User guide](user-guide) - Usage, configuration, FAQ and complementary tools.
-- [Developer guide](developer-guide) - Contributing to `SBit ethjs-abi` and writing your own code and coverage.
+- [User guide](./user-guide.md) - Usage, configuration, FAQ and complementary tools.
+- [Developer guide](./developer-guide.md) - Contributing to `SBit ethjs-abi` and writing your own code and coverage.
 
 ## Help out
 
