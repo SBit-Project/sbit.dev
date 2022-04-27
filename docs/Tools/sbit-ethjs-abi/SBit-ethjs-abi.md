@@ -113,5 +113,5 @@ We communicate via [issues](https://github.com/SBit-Project/sbit-ethjs-abi/issue
 
 ## Important documents
 
-- [Code of Conduct](../../Help/CODE_OF_CONDUCT)
+- [Code of Conduct](../../Help/CODE_OF_CONDUCT.md)
 - [License](https://raw.githubusercontent.com/ethjs/ethjs-abi/master/LICENSE)
