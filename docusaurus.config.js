@@ -7,7 +7,8 @@ module.exports = {
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
     organizationName: 'SBit-Project',
-    projectName: 'website',
+    projectName: 'sbit.dev',
+    trailingSlash: false,
     plugins: [
         'docusaurus-tailwindcss-loader',
         'docusaurus-plugin-sass',
