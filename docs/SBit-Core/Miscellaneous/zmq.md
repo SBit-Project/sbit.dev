@@ -41,7 +41,7 @@ buffering or reassembly.
 
 The ZeroMQ feature in SBit Core requires the ZeroMQ API >= 4.0.0
 [libzmq](https://github.com/zeromq/libzmq/releases).
-For version information, see [dependencies.md](dependencies.md).
+For version information, see [dependencies.md](../Building/depend).
 Typically, it is packaged by distributions as something like
 *libzmq3-dev*. The C++ wrapper for ZeroMQ is *not* needed.
 

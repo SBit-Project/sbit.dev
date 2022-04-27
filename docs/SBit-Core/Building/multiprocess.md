@@ -25,7 +25,7 @@ After [#10102](https://github.com/bitcoin/bitcoin/pull/10102), the `-debug=ipc` 
 
 ## Installation
 
-The multiprocess feature requires [Cap'n Proto](https://capnproto.org/) and [libmultiprocess](https://github.com/chaincodelabs/libmultiprocess) as dependencies. A simple way to get starting using it without installing these dependencies manually is to use the [depends system](depends) with the `MULTIPROCESS=1` [dependency option](depend#dependency-options) passed to make:
+The multiprocess feature requires [Cap'n Proto](https://capnproto.org/) and [libmultiprocess](https://github.com/chaincodelabs/libmultiprocess) as dependencies. A simple way to get starting using it without installing these dependencies manually is to use the [depends system](depend) with the `MULTIPROCESS=1` [dependency option](depend#dependency-options) passed to make:
 
 ```
 cd <BITCOIN_SOURCE_DIRECTORY>
