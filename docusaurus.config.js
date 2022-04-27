@@ -1,8 +1,8 @@
 module.exports = {
     title: 'SBit',
     tagline: 'Smart Bitcoin Blockchain',
-    url: 'https://sbit.dev',
-    baseUrl: '/',
+    url: 'https://sbit-project.github.io/',
+    baseUrl: '/sbit.dev/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
