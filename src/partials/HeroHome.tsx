@@ -32,7 +32,7 @@ function HeroHome({}) {
                 <span
                     data-aos="zoom-y-out"
                     data-aos-delay="100"
-                    className="block">Bitcoin Blockchain </span>
+                    className="block">Bitcoin</span>
 
                 <span
                     data-aos="zoom-y-out"
