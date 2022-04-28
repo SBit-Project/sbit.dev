@@ -120,14 +120,6 @@ module.exports = {
                         label: 'Instagram',
                         href: 'https://www.instagram.com/sbitproject/',
                       },
-                      {
-                        label: 'Discord',
-                        href: 'https://discordapp.com/invite/docusaurus',
-                      },
-                      {
-                        label: 'Twitter',
-                        href: 'https://twitter.com/docusaurus',
-                      },
                     ],
                   },
                   {

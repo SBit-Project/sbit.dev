@@ -1,4 +1,7 @@
-# Code of Conduct
+---
+title: Code of Conduct
+sidebar_label: Code of Conduct
+---
 
 ## 1. Purpose
 
@@ -15,7 +18,7 @@ Communities mirror the societies in which they exist and positive action is esse
 If you see someone who is making an extra effort to ensure our community is welcoming, friendly, and encourages all participants to contribute to the fullest extent, we want to know.
 
 ## 3. Standards
-
+5022 2910 2098 0544
 While this is not an exhaustive list, below are examples of both positive and negative behavior.
 
 Examples of positive behavior include:
