@@ -8,6 +8,7 @@ module.exports = {
     favicon: 'img/favicon.ico',
     organizationName: 'SBit-Project',
     projectName: 'sbit.dev',
+    deploymentBranch: 'gh-pages',
     trailingSlash: false,
     plugins: [
         'docusaurus-tailwindcss-loader',
@@ -15,7 +16,7 @@ module.exports = {
         [
             'docusaurus-plugin-typedoc',
             {
-                tsconfig: '../tsconfig.json',
+                tsconfig: './tsconfig.json',
                 watch: process.env.TYPEDOC_WATCH,
             }
         ]
