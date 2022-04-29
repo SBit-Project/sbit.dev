@@ -7,7 +7,7 @@ sidebar_position: 2
 
 In this chapter we will use [sbitjs](https://github.com/SBit-Project/sbitjs) to build a NodeJS CLI tool to interact with the SRC20 [token we deployed previously](src20-token).
 
-You can download the project code: [SBit-Project/sbitbook-mytoken-sbitjs-cli](https://github.com/SBit-Project/sbitbook-mytoken-sbitjs-cli).
+You can download the project code: [SBit-Project/Docs-testToken-sbitjs-cli](https://github.com/SBit-Project/Docs-testToken-sbitjs-cli).
 
 For now, sbitjs relies on `sbitd`'s RPC service, so make sure that the docker container is running:
 
@@ -59,7 +59,7 @@ For modern JavaScript development, you really owe it to yourself to try [VSCode]
 Let's clone the NodeJS project to the directory `mytoken-js`:
 
 ```shell
-git clone https://github.com/SBit-Project/sbitbook-mytoken-sbitjs-cli.git mytoken-js
+git clone https://github.com/SBit-Project/Docs-testToken-sbitjs-cli.git mytoken-js
 ```
 
 The project dependencies are listed in `package.json`:
@@ -76,8 +76,6 @@ The project dependencies are listed in `package.json`:
 }
 ```
 
-https://github.com/SBit-Project/sbitbook-mytoken-sbitjs-cli/blob/23e6d0c40890075163eefacc0c66b018dc9c8bbc/package.json#L7-L9
-
 Install these dependencies:
 
 ```shell
@@ -88,7 +86,7 @@ npm install
 
 ## Getting The Total Supply
 
-Let's try to get the token's total supply. Run the script [index.js](https://github.com/SBit-Project/sbitbook-mytoken-sbitjs-cli/blob/23e6d0c40890075163eefacc0c66b018dc9c8bbc/index.js):
+Let's try to get the token's total supply. Run the script index.js
 
 ```shell
 node index.js supply
@@ -116,7 +114,7 @@ You should link (or copy) `solar.development.json` generated in the previous cha
 ln -s ~/sbitbook/examples/mytoken/solar.development.json solar.json
 ```
 
-> See an example [solar.development.json](https://github.com/SBit-Project/sbitbook-mytoken-sbitjs-cli/blob/master/solar.development.json.example) file
+> See an example [solar.development.json](https://github.com/SBit-Project/Docs-testToken-sbitjs-cli/blob/master/solar.development.json.example) file
 
 Now try again:
 
@@ -155,7 +153,6 @@ The ABI definition (loaded from `solar.json`) is:
   "anonymous": false
 }
 ```
-https://github.com/SBit-Project/sbitbook-mytoken-sbitjs-cli/blob/5e2e162efcd8d32971e7fab6d1c843ac1c843933/solar.development.json.example#L46-L60
 
 And to call this method using JavaScript:
 
@@ -172,7 +169,6 @@ async function totalSupply() {
 }
 ```
 
-https://github.com/SBit-Project/sbitbook-mytoken-sbitjs-cli/blob/5e2e162efcd8d32971e7fab6d1c843ac1c843933/index.js#L15-L22
 
 * `myToken.call("totalSupply")` returns a [Promise](https://developers.google.com/web/fundamentals/primers/promises), and `await` is a syntatic sugar to that waits for the asynchronous computation, then returns the result.
 * Solidity numbers (int, uint, etc.) are represented in JavaScript using [BigNumber](https://github.com/indutny/bn.js/).
@@ -253,8 +249,6 @@ async function balanceOf(owner) {
   console.log(`balance:`,  balance.toNumber())
 }
 ```
-
-https://github.com/SBit-Project/sbitbook-mytoken-sbitjs-cli/blob/5e2e162efcd8d32971e7fab6d1c843ac1c843933/index.js#L24-L31
 
 The arguments to `balanceOf` are passed in as an array.
 
