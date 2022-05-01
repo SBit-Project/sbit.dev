@@ -5,10 +5,10 @@ keywords: [sbit, api, explorer, tools]
 ---
 
 
-- [Block API](#Block-API)
-  - [Block Information](#Block-Information)
-  - [Blocks of Date](#Blocks-of-Date)
-  - [Recent Blocks](#Recent-Blocks)
+- [Block API](#block-api)
+  - [Block Information](#block-information)
+  - [Blocks of Date](#blocks-of-date)
+  - [Recent Blocks](#recent-blocks)
 
 
 ## Block Information
