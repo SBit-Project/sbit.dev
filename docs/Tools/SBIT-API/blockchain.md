@@ -4,10 +4,10 @@ description: SBit Explorer Blockchain API
 keywords: [sbit, api, explorer, tools]
 ---
 
-- [Blockchain API](#Blockchain-API)
-  - [Blockchain Information](#Blockchain-Information)
-  - [Supply](#Supply)
-  - [Total Max Supply](#Total-Max-Supply)
+- [Blockchain API](#Blockchain-api)
+  - [Blockchain Information](#blockchain-information)
+  - [Supply](#supply)
+  - [Total Max Supply](#total-max-supply)
 
 
 ## Blockchain Information
