@@ -4,8 +4,6 @@ description: SBit Explorer Address API
 keywords: [sbit, api, explorer, tools]
 ---
 
-# Address API
-
 - [Address API](#address-api)
   - [Address Information](#address-information)
   - [Address Balance](#address-balance)
