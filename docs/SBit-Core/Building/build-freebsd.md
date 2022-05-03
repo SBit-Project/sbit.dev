@@ -41,7 +41,7 @@ BerkeleyDB is only necessary for the wallet functionality. To skip this, pass
 export BDB_PREFIX="$PWD/db4"
 ```
 
-## Building SBit Core
+## Building Sbit Core
 
 :::caution
 Use `gmake` (the non-GNU `make` will exit with an error).
