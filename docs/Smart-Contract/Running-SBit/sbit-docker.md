@@ -49,7 +49,7 @@ You should see output like this:
 02:46:17 portal | time="2017-12-13T02:46:17Z" level=info msg="DApp service listening 0.0.0.0:9888"
 02:46:17 portal | time="2017-12-13T02:46:17Z" level=info msg="Auth service listening 0.0.0.0:9899"
 02:46:17  sbitd | 2017-12-13 02:46:17
-02:46:17  sbitd | 2017-12-13 02:46:17 SBit version v0.14.10.0-101922f-dirty
+02:46:17  sbitd | 2017-12-13 02:46:17 Sbit version v0.14.10.0-101922f-dirty
 02:46:17  sbitd | 2017-12-13 02:46:17 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
 02:46:17  sbitd | 2017-12-13 02:46:17 Validating signatures for all blocks.
 02:46:17  sbitd | 2017-12-13 02:46:17
@@ -93,7 +93,7 @@ You should see that the blockchain database for `regtest` had been created in yo
 ```shell
 ls .sbit/regtest
 
-banlist.dat       chainstate        debug.log         mempool.dat       stateSBit         wallet.dat
+banlist.dat       chainstate        debug.log         mempool.dat       stateSbit         wallet.dat
 blocks            db.log            fee_estimates.dat peers.dat         vm.log
 ```
 
