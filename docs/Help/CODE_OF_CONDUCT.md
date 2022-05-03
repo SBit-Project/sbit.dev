@@ -5,7 +5,7 @@ sidebar_label: Code of Conduct
 
 ## 1. Purpose
 
-A primary goal of the SBit project is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, all contributors and maintainers of the project are expected to foster a friendly, safe, and welcoming environment for all, regardless of age, body size, disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+A primary goal of the Sbit project is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, all contributors and maintainers of the project are expected to foster a friendly, safe, and welcoming environment for all, regardless of age, body size, disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
 This Code of Conduct outlines the community's expectations for all participants.
 
@@ -53,7 +53,7 @@ If a community member engages in unacceptable behavior, the community organizers
 
 ## 5. Reporting Guidelines
 
-If you are subject to or witness unacceptable behavior, or have any other concerns, please notify the SBit community as soon as possible by emailing dev@sbit.dev. 
+If you are subject to or witness unacceptable behavior, or have any other concerns, please notify the Sbit community as soon as possible by emailing dev@sbit.dev. 
 
 If you feel you have been falsely or unfairly accused of violating this Code of Conduct, please send an email to dev@sbit.dev with a concise description of your grievance. The project maintainers will review your email and take any appropriate actions.
 
