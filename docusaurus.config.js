@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'SBit',
+    title: 'SBIT',
     tagline: 'Smart Bitcoin Blockchain',
     url: 'https://sbit-project.github.io/',
     baseUrl: '/sbit.dev/',
@@ -27,7 +27,7 @@ module.exports = {
         announcementBar: {
             id: 'warn',
             content:
-                'SBit is still under active development, be aware that breaking changes may occur.',
+                'Smart Bitcoin is still under active development, be aware that breaking changes may occur.',
             backgroundColor: '#FF5B79',
             textColor: 'black',
             isCloseable: true,
@@ -37,9 +37,9 @@ module.exports = {
             respectPrefersColorScheme: false,
         },
         navbar: {
-            title: 'SBit',
+            title: 'Smart Bitcoin',
             logo: {
-                alt: 'SBit Logo',
+                alt: 'Sbit Logo',
                 src: 'img/sbit_logo.svg'
             },
             items: [
