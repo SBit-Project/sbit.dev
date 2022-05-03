@@ -156,7 +156,7 @@ Offline builds must use the --url flag to ensure Gitian fetches only from local 
 
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 
-### Build and sign SBit Core for Linux, Windows, and macOS:
+### Build and sign Sbit Core for Linux, Windows, and macOS:
 
 ```shell
 pushd ./gitian-builder
