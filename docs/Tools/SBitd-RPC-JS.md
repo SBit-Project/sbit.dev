@@ -1,5 +1,5 @@
 ---
-title: d RPC JS
+title: SBitd RPC JS
 description: A client library to connect to SBIT Core RPC in JavaScript.
 keywords: [sbit, rpc, js, tools]
 ---

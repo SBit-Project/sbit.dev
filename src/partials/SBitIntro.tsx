@@ -9,7 +9,7 @@ import EthereumLogo from "@site/static/img/ethereum.svg";
 // @ts-ignore
 import BitcoinLogo from "@site/static/img/bitcoin.svg";
 
-function Intro() {
+function SBitIntro() {
     return (
         <section className="relative">
 
@@ -67,4 +67,4 @@ function Intro() {
 }
 
 
-export default Intro;
+export default SBitIntro;

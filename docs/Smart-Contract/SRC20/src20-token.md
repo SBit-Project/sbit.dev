@@ -190,7 +190,7 @@ You can find more information about the deployed contracts in `solar.development
 
 ## The Owner UTXO Address As Sender
 
-The main difference between SBIT and Ethereum is that SBIT is built on Bitcoin's UTXO model, and Ethereum has its own account model, as we've seen in the [SBIT UTXO](../Running-/utxos-balances) chapter.
+The main difference between SBIT and Ethereum is that SBIT is built on Bitcoin's UTXO model, and Ethereum has its own account model, as we've seen in the [SBIT UTXO](../Running-SBit/utxos-balances) chapter.
 
 In Ethereum, the cost of a transaction is paid by an account. The amount paid is decremented from the account, but the account is still there.
 

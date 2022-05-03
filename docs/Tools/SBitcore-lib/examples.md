@@ -1,6 +1,6 @@
 ---
-title: core examples
-description: core examples
+title: SBitcore examples
+description: SBitcore examples
 keywords: [sbit, bitcoin, blockchain, ethereum, sbitcore, tools]
 sidebar_position: 7
 ---

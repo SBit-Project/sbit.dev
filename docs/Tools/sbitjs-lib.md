@@ -1,5 +1,5 @@
 ---
-title: js lib
+title: SBitjs lib
 description: An extend lib for bitcoinjs-lib
 keywords: [sbit, lib, js, tools]
 ---

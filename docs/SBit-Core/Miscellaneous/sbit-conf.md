@@ -61,8 +61,8 @@ The `includeconf=<file>` option in the `sbit.conf` file can be used to include a
 
 Operating System | Data Directory | Example Path
 -- | -- | --
-Windows | `%APPDATA%\\` | `C:\Users\username\AppData\Roaming\\sbit.conf`
+Windows | `%APPDATA%\SBit\` | `C:\Users\username\AppData\Roaming\SBit\sbit.conf`
 Linux | `$HOME/.sbit/` | `/home/username/.sbit/sbit.conf`
-macOS | `$HOME/Library/Application Support//` | `/Users/username/Library/Application Support//sbit.conf`
+macOS | `$HOME/Library/Application Support/SBit/` | `/Users/username/Library/Application Support/SBit/sbit.conf`
 
 You can find an example sbit.conf file in [share/examples/sbit.conf](https://github.com/SBit-Project/sbit/share/examples/sbit.conf).

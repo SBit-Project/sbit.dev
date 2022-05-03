@@ -14,8 +14,8 @@ The data directory is the default location where the Sbit Core files are stored.
 Platform | Data directory path
 ---------|--------------------
 Linux    | `$HOME/.sbit/`
-macOS    | `$HOME/Library/Application Support//`
-Windows  | `%APPDATA%\\` <sup>[\[1\]](#note1)</sup>
+macOS    | `$HOME/Library/Application Support/SBit/`
+Windows  | `%APPDATA%\SBit\` <sup>[\[1\]](#note1)</sup>
 
 2. A custom data directory path can be specified with the `-datadir` option.
 

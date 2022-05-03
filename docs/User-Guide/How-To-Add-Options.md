@@ -26,7 +26,7 @@ Instructions:
 Create a file named `sbit.conf` under your `datadir`, the default datadir paths for different OS are different:
 
 * Linux: ~/.sbit
-* OSX: ~/Library/Application Support/
+* OSX: ~/Library/Application Support/SBit
 * Windows: %APPDATA%\Sbit (Please paste this path to your windows explorer, the path will be resolved automatically)
 
 :::caution

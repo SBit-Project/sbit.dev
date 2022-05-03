@@ -126,11 +126,11 @@ Then you can either run the command-line daemon using `src/sbitd` and `src/sbit-
 Before running, you may create an empty configuration file:
 
 ```shell
-mkdir -p "/Users/${USER}/Library/Application Support/"
+mkdir -p "/Users/${USER}/Library/Application Support/SBit"
 
-touch "/Users/${USER}/Library/Application Support//sbit.conf"
+touch "/Users/${USER}/Library/Application Support/SBit/sbit.conf"
 
-chmod 600 "/Users/${USER}/Library/Application Support//sbit.conf"
+chmod 600 "/Users/${USER}/Library/Application Support/SBit/sbit.conf"
 ```
 
 The first time you run sbitd, it will start downloading the blockchain. This process could
@@ -139,7 +139,7 @@ take many hours, or even days on slower than average systems.
 You can monitor the download process by looking at the debug.log file:
 
 ```shell
-tail -f $HOME/Library/Application\ Support//debug.log
+tail -f $HOME/Library/Application\ Support/SBit/debug.log
 ```
 
 ## Other commands:

@@ -1,11 +1,11 @@
 ---
-title: core-Lib
-description: core provides a reliable API for JavaScript apps that need to interface with SBIT.
+title: SBitcore-Lib
+description: SBitcore provides a reliable API for JavaScript apps that need to interface with SBIT.
 keywords: [sbit, bitcoin, blockchain, ethereum, sbitcore, tools]
 sidebar_position: 1
 ---
 
-SBIT is a powerful new peer-to-peer platform for the next generation of financial technology. The decentralized nature of the SBIT network allows for highly resilient SBIT infrastructure, and the developer community needs reliable, open-source tools to implement SBIT apps and services. core provides a reliable API for JavaScript apps that need to interface with SBIT.
+SBIT is a powerful new peer-to-peer platform for the next generation of financial technology. The decentralized nature of the SBIT network allows for highly resilient SBIT infrastructure, and the developer community needs reliable, open-source tools to implement SBIT apps and services. SBitcore provides a reliable API for JavaScript apps that need to interface with SBIT.
 
 ## Addresses and Key Management
 

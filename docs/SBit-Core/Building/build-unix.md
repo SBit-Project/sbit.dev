@@ -197,7 +197,7 @@ sudo dnf install sqlite-devel
 Dependency Build Instructions: CentOS
 -------------------------------------
 
-You need to build boost manually, and if it's not in standard library paths, you need to add `/path/to/boost/lib` into `LD_LIBRARY_PATH` env when building .
+You need to build boost manually, and if it's not in standard library paths, you need to add `/path/to/boost/lib` into `LD_LIBRARY_PATH` env when building SBit.
 
 Build requirements:
 

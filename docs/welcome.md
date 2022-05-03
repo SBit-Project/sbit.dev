@@ -1,5 +1,5 @@
 ---
-title: Welcome to 
+title: Welcome to SBit
 description: What is smart bitcoin blockchain ?
 keywords: [sbit, bitcoin, blockchain, ethereum]
 sidebar_position: 1
@@ -30,7 +30,7 @@ executed on testnet to avoid disrupting fellow users.
 When a decision has been made that the development branch should be moving
 towards a final release it is merged to *staging* where no new development
 takes place. This branch is purely to stabilize the code base and squash out
-bugs rained down from development. This is 's beta testing phase.
+bugs rained down from development. This is SBit's beta testing phase.
 
 ### master
 Once the staging branch is stable and runs smoothly, it is merged to *master*, a tag is created,

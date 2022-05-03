@@ -1,17 +1,17 @@
 ---
 title: Sbit Networks
-description: core provides support for the main SBIT network as well as for testnet,
+description: SBitcore provides support for the main SBIT network as well as for testnet,
 keywords: [sbit, bitcoin, blockchain, ethereum, sbitcore, tools]
 sidebar_position: 9
 ---
 
-core provides support for the main SBIT network as well as for `testnet`, the current test blockchain. We encourage the use of `Networks.livenet` and `Networks.testnet` as constants. Note that the library sometimes may check for equality against this object. Please avoid creating a deep copy of this object.
+SBitcore provides support for the main SBIT network as well as for `testnet`, the current test blockchain. We encourage the use of `Networks.livenet` and `Networks.testnet` as constants. Note that the library sometimes may check for equality against this object. Please avoid creating a deep copy of this object.
 
 The `Network` namespace has a function, `get(...)` that returns an instance of a `Network` or `undefined`. The only argument to this function is some kind of identifier of the network: either its name, a reference to a Network object, or a number used as a magic constant to identify the network (for example, the value `0` that gives SBIT addresses the distinctive `'1'` at its beginning on livenet, is a `0x6F` for testnet).
 
 ## Regtest
 
-The regtest network is useful for development as it's possible to programmatically and instantly generate blocks for testing. It's currently supported as a variation of testnet. Here is an example of how to use regtest with the core Library:
+The regtest network is useful for development as it's possible to programmatically and instantly generate blocks for testing. It's currently supported as a variation of testnet. Here is an example of how to use regtest with the SBitcore Library:
 
 ```js
 // Standard testnet
