@@ -1,7 +1,7 @@
 ---
 slug: exchange
 title: Sbit Exchange Usage Guide and Info
-author: SBit Dev Team
+author: Sbit Dev Team
 ---
 
 ## Setup
