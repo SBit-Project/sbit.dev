@@ -1434,4 +1434,4 @@ export interface IABIMethod {
 }
 ```
 
-This can be generated automatically using the [solar](https://github.com/Sbit-Project/solar) deployment tool.
+This can be generated automatically using the [solar](https://github.com/SBit-Project/solar) deployment tool.
