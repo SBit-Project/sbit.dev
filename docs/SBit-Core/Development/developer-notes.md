@@ -1,6 +1,6 @@
 ---
 title: Developer Notes
-description: SBit Developer Notes
+description: Sbit Developer Notes
 keywords: [sbit, bitcoin, blockchain, ethereum]
 sidebar_position: 2
 ---
@@ -240,7 +240,7 @@ that run in `-regtest` mode.
 
 ### DEBUG_LOCKORDER
 
-SBit Core is a multi-threaded application, and deadlocks or other
+Sbit Core is a multi-threaded application, and deadlocks or other
 multi-threading bugs can be very difficult to track down. The `--enable-debug`
 configure option adds `-DDEBUG_LOCKORDER` to the compiler flags. This inserts
 run-time checks to keep track of which locks are held and adds warnings to the
@@ -324,7 +324,7 @@ See the functional test documentation for how to invoke perf within tests.
 
 ### Sanitizers
 
-SBit Core can be compiled with various "sanitizers" enabled, which add
+Sbit Core can be compiled with various "sanitizers" enabled, which add
 instrumentation for issues regarding things like memory safety, thread race
 conditions, or undefined behavior. This is controlled with the
 `--with-sanitizers` configure flag, which should be a comma separated list of
@@ -446,7 +446,7 @@ Ignoring IDE/editor files
 In closed-source environments in which everyone uses the same IDE, it is common
 to add temporary files it produces to the project-wide `.gitignore` file.
 
-However, in open source software such as SBit Core, where everyone uses
+However, in open source software such as Sbit Core, where everyone uses
 their own editors/IDE/tools, it is less common. Only you know what files your
 editor produces and this may change from version to version. The canonical way
 to do this is thus to create your local gitignore. Add this to `~/.gitconfig`:
@@ -476,9 +476,9 @@ Development guidelines
 ============================
 
 A few non-style-related recommendations for developers, as well as points to
-pay attention to for reviewers of SBit Core code.
+pay attention to for reviewers of Sbit Core code.
 
-General SBit Core
+General Sbit Core
 ----------------------
 
 - New features should be exposed on RPC first, then can be made available in the GUI.
