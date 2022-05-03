@@ -1,18 +1,18 @@
 ---
 title: UNIX Build guide
-description: Some notes on how to build SBit Core in Unix.
+description: Some notes on how to build Sbit Core in Unix.
 keywords: [sbit, bitcoin, blockchain, ethereum]
 sidebar_position: 4
 ---
 
-Some notes on how to build SBit Core in Unix.
+Some notes on how to build Sbit Core in Unix.
 
 :::note
 For BSD specific instructions, see `build-*bsd.md` in this directory
 :::
 
 :::caution
-Always use absolute paths to configure and compile SBit Core and the dependencies.
+Always use absolute paths to configure and compile Sbit Core and the dependencies.
 For example, when specifying the path of the dependency:
 
 ```bash
@@ -64,7 +64,7 @@ Memory Requirements
 --------------------
 
 C++ compilers are memory-hungry. It is recommended to have at least 1.5 GB of
-memory available when compiling SBit Core. On systems with less, gcc can be
+memory available when compiling Sbit Core. On systems with less, gcc can be
 tuned to conserve memory with additional CXXFLAGS:
 
 ```bash
@@ -117,7 +117,7 @@ SQLite is required for the wallet
 sudo apt install libsqlite3-dev
 ```
 
-To build SBit Core without wallet, see [*Disable-wallet mode*](#disable-wallet-mode)
+To build Sbit Core without wallet, see [*Disable-wallet mode*](#disable-wallet-mode)
 
 
 Optional (see `--with-miniupnpc` and `--enable-upnp-default`):
@@ -259,7 +259,7 @@ sudo su
 Security
 --------
 
-To help make your SBit Core installation more secure by making certain attacks impossible to
+To help make your Sbit Core installation more secure by making certain attacks impossible to
 exploit even if a vulnerability is found, binaries are hardened by default.
 This can be disabled with:
 
@@ -295,7 +295,7 @@ ET_DYN
 ```
 
 * _Non-executable Stack_: If the stack is executable then trivial stack-based buffer overflow exploits are possible if
-    vulnerable buffers are found. By default, SBit Core should be built with a non-executable stack,
+    vulnerable buffers are found. By default, Sbit Core should be built with a non-executable stack,
     but if one of the libraries it uses asks for an executable stack or someone makes a mistake
     and uses a compiler extension which requires an executable stack, it will silently build an
     executable without the non-executable stack protection.
@@ -318,7 +318,7 @@ The STK RW- means that the stack is readable and writeable but not executable.
 Disable-wallet mode
 --------------------
 
-When the intention is to run only a P2P node without a wallet, SBit Core may be compiled in
+When the intention is to run only a P2P node without a wallet, Sbit Core may be compiled in
 disable-wallet mode with:
 
 ```bash
@@ -355,7 +355,7 @@ This example lists the steps necessary to setup and build a command line only, n
 Enabling wallet support requires either compiling against a Berkeley DB newer than 4.8 (package `db`) using `--with-incompatible-bdb`,
 or building and depending on a local version of Berkeley DB 4.8. The readily available Arch Linux packages are currently built using
 `--with-incompatible-bdb` according to the [PKGBUILD](https://projects.archlinux.org/svntogit/community.git/tree/bitcoin/trunk/PKGBUILD).
-As mentioned above, when maintaining portability of the wallet between the standard SBit Core distributions and independently built
+As mentioned above, when maintaining portability of the wallet between the standard Sbit Core distributions and independently built
 node software is desired, Berkeley DB 4.8 must be used.
 :::
 
