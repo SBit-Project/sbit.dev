@@ -5,10 +5,10 @@ keywords: [sbit, bitcoin, blockchain, ethereum]
 sidebar_position: 3
 ---
 
-SBit Core attempts to minimize the level of trust in DNS seeds,
+Sbit Core attempts to minimize the level of trust in DNS seeds,
 but DNS seeds still pose a small amount of risk for the network.
 As such, DNS seeds must be run by entities which have some minimum
-level of trust within the SBit community.
+level of trust within the Sbit community.
 
 This document establishes some basic expectations for operating dnsseeds.
 
