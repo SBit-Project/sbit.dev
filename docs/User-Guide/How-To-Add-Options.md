@@ -15,7 +15,7 @@ This tutorial describes how to specify options (or configurations) to Sbit node.
 ***This works for both PC wallet and command-line sbitd wallet***
 :::
 
-SBit PC wallet (i.e. sbit core qt wallet) is the most widely used SBit wallet by common users.
+Sbit PC wallet (i.e. sbit core qt wallet) is the most widely used Sbit wallet by common users.
 
 User can edit sbit config file to specify some options.
 
@@ -27,7 +27,7 @@ Create a file named `sbit.conf` under your `datadir`, the default datadir paths 
 
 * Linux: ~/.sbit
 * OSX: ~/Library/Application Support/SBit
-* Windows: %APPDATA%\SBit (Please paste this path to your windows explorer, the path will be resolved automatically)
+* Windows: %APPDATA%\Sbit (Please paste this path to your windows explorer, the path will be resolved automatically)
 
 :::caution
 ***Please be careful and don‘t remove or change any content under this directory except you are aware of them.***
