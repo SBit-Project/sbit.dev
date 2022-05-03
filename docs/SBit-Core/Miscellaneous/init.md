@@ -70,13 +70,13 @@ Lock file:           `/var/lock/subsys/bitcoind` (CentOS)
 
 The PID directory (if applicable) and data directory should both be owned by the
 bitcoin user and group. It is advised for security reasons to make the
-configuration file and data directory only readable by the SBit user and
+configuration file and data directory only readable by the Sbit user and
 group. Access to bitcoin-cli and other bitcoind rpc clients can then be
 controlled by group membership.
 
 NOTE: When using the systemd .service file, the creation of the aforementioned
 directories and the setting of their permissions is automatically handled by
-systemd. Directories are given a permission of 710, giving the SBit group
+systemd. Directories are given a permission of 710, giving the Sbit group
 access to files under it _if_ the files themselves give permission to the
 bitcoin group to do so (e.g. when `-sysperms` is specified). This does not allow
 for the listing of files under the directory.
