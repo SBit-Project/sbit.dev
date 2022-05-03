@@ -1,5 +1,5 @@
 ---
-title: SBit ethjs-abi
+title: Sbit ethjs-abi
 description: Just the encoding and decoding of contract data.
 keywords: [sbit, bitcoin, blockchain, ethereum, api, tools]
 sidebar_position: 1
@@ -92,19 +92,19 @@ contract SimpleStore {
 
 ## Guides
 
-You'll find more detailed information on using `SBit ethjs-abi` and tailoring it to your needs in our guides:
+You'll find more detailed information on using `Sbit ethjs-abi` and tailoring it to your needs in our guides:
 
 - [User guide](./user-guide.md) - Usage, configuration, FAQ and complementary tools.
-- [Developer guide](./developer-guide.md) - Contributing to `SBit ethjs-abi` and writing your own code and coverage.
+- [Developer guide](./developer-guide.md) - Contributing to `Sbit ethjs-abi` and writing your own code and coverage.
 
 ## Help out
 
 There is always a lot of work to do, and will have many rules to maintain. So please help out in any way that you can:
 
-- Create, enhance, and debug SBit ethjs rules
+- Create, enhance, and debug Sbit ethjs rules
 - Improve documentation.
 - Chime in on any open issue or pull request.
-- Open new issues about your ideas for making `SBit ethjs-abi` better, and pull requests to show us how your idea works.
+- Open new issues about your ideas for making `Sbit ethjs-abi` better, and pull requests to show us how your idea works.
 - Add new tests to *absolutely anything*.
 - Create or contribute to ecosystem tools, like modules for encoding or contracts.
 - Spread the word.
