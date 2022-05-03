@@ -344,7 +344,7 @@ This example lists the steps necessary to setup and build a command line only, n
 
 ```bash
     pacman -S git base-devel boost libevent python gmp
-    git clone https://github.com/SBit-Project/SBit --recursive
+    git clone https://github.com/SBit-Project/sbit --recursive
     cd sbit/
     ./autogen.sh
     ./configure --disable-wallet --without-gui --without-miniupnpc
