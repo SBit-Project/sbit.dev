@@ -449,5 +449,5 @@ Uploading signatures
 ---------------------
 
 After building and signing you can push your signatures (both the `.assert` and `.assert.sig` files) to the
-[Sbit-Project/gitian.sigs](https://github.com/SBit-Project/gitian.sigs/) repository, or if that's not possible create a pull
+[SBit-Project/gitian.sigs](https://github.com/SBit-Project/gitian.sigs/) repository, or if that's not possible create a pull
 request.
