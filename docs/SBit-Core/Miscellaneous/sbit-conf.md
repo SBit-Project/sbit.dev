@@ -1,5 +1,5 @@
 ---
-title: SBit Configuration File
+title: Sbit Configuration File
 description: The configuration file is used by sbitd, sbit-qt and sbit-cli.
 keywords: [sbit, bitcoin, blockchain, ethereum]
 sidebar_position: 7
@@ -53,7 +53,7 @@ rpcport=4000
 
 ## Configuration File Path
 
-The configuration file is not automatically created; you can create it using your favorite text editor. By default, the configuration file name is `sbit.conf` and it is located in the SBit data directory, but both the SBit data directory and the configuration file path may be changed using the `-datadir` and `-conf` command-line options.
+The configuration file is not automatically created; you can create it using your favorite text editor. By default, the configuration file name is `sbit.conf` and it is located in the Sbit data directory, but both the Sbit data directory and the configuration file path may be changed using the `-datadir` and `-conf` command-line options.
 
 The `includeconf=<file>` option in the `sbit.conf` file can be used to include additional configuration files.
 
