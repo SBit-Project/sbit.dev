@@ -39,7 +39,7 @@ sendtocontract "contractaddress" "data" (amount gaslimit gasprice senderaddress 
 
 ## 🚫 Account (Deprecated) 🚫
 
-the SBit provided API to [organize addresses by "account"](https://en.bitcoin.it/wiki/Help:Accounts_explained) in its local wallet:
+the Sbit provided API to [organize addresses by "account"](https://en.bitcoin.it/wiki/Help:Accounts_explained) in its local wallet:
 
 ```
 scli help | grep account
