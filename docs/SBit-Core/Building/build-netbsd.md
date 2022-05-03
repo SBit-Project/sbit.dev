@@ -57,7 +57,7 @@ from the root of the repository. Then set `BDB_PREFIX` for the next section:
 export BDB_PREFIX="$PWD/db4"
 ```
 
-### Building SBit Core
+### Building Sbit Core
 
 :::caution
 Use `gmake` (the non-GNU `make` will exit with an error).
