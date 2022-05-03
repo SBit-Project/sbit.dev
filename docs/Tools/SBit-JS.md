@@ -10,21 +10,21 @@ keywords: [sbit, API, js, tools]
 npm install sbitjs
 ```
 
-SBitJS is a JavaScript library for developing DApp on the Sbit blockchain. You can use this library to develop frontend UI that runs in the browser, as well as backend server scripts that run in NodeJS.
+JS is a JavaScript library for developing DApp on the Sbit blockchain. You can use this library to develop frontend UI that runs in the browser, as well as backend server scripts that run in NodeJS.
 
 The main classes are:
 
 Class | Description
 --------- | -----------
-SBitRPCRaw | Direct access to `sbitd`'s blockchain RPC service, using JSONRPC 1.0 calling convention.
-SBitRPC | Wrapper for `SBitRPCRaw`, to provide interface like JSONRPC 2.0.
+RPCRaw | Direct access to `sbitd`'s blockchain RPC service, using JSONRPC 1.0 calling convention.
+RPC | Wrapper for `RPCRaw`, to provide interface like JSONRPC 2.0.
 Contract | An abstraction for interacting with smart contracts. Handles [ABI encoding/decoding](https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI).
 
-SBitJS is developed using [TypeScript](https://www.typescriptlang.org/), and as such, comes with robust type definitions for all the APIs. We recommend using [VSCode](https://code.visualstudio.com/) to take advantage of language support, such as type hinting and autocompletion.
+JS is developed using [TypeScript](https://www.typescriptlang.org/), and as such, comes with robust type definitions for all the APIs. We recommend using [VSCode](https://code.visualstudio.com/) to take advantage of language support, such as type hinting and autocompletion.
 
 But you can also choose to use plain JavaScript and notepad if you prefer.
 
-This document is the reference for SBitJS API, and its basic uses. For a tutorial-style introduction to SBitJS, see: [SBitBook - SRC20 With SBitJS](https://github.com/SBit-Project/sbitbook/blob/master/part2/src20-js.md).
+This document is the reference for JS API, and its basic uses. For a tutorial-style introduction to JS, see: [Book - SRC20 With JS](https://github.com/SBit-Project/sbitbook/blob/master/part2/src20-js.md).
 
 
 ## Running Sbit RPC
@@ -51,9 +51,9 @@ docker run -it --rm \
 ```
 
 
-SBitJS relies on `sbitd` to provide the JSON-RPC service for accessing the SBIT blockchain.
+JS relies on `sbitd` to provide the JSON-RPC service for accessing the SBIT blockchain.
 
-For more details, see: [SBitBook - Running SBIT](https://github.com/SBit-Project/sbitbook/blob/master/SUMMARY.md#part-1---running-sbit).
+For more details, see: [Book - Running SBIT](https://github.com/SBit-Project/sbitbook/blob/master/SUMMARY.md#part-1---running-sbit).
 
 
 :::note
@@ -65,11 +65,11 @@ The default JSON-RPC credential is "sbit:test", running on port 22002
 
 ```ts
 import {
-  SBit,
+  ,
 } from "sbitjs"
 
 const repoData = require("./solar.json")
-const sbit = new SBit("http://sbit:test@localhost:22002", repoData)
+const sbit = new ("http://sbit:test@localhost:22002", repoData)
 
 const myToken = sbit.contract("zeppelin-solidity/contracts/token/CappedToken.sol")
 
@@ -89,16 +89,16 @@ async function transfer(fromAddr, toAddr, amount) {
 Assuming that `solar.json` contains information about your deployed contracts,
 you can use sbitjs to call the token contract's method to transfer tokens.
 
-## SBit
+## 
 
 ```ts
 const repoData = require("./solar.json")
-const sbit = new SBit("http://sbit:test@localhost:22002", repoData)
+const sbit = new ("http://sbit:test@localhost:22002", repoData)
 ```
 
-The `SBit` class is an instance of the `sbitjs` API. It provides two main features:
+The `` class is an instance of the `sbitjs` API. It provides two main features:
 
-+ Access to the `sbitd` RPC service. It is a subclass of [SBitRPC](#sbitrpc).
++ Access to the `sbitd` RPC service. It is a subclass of [RPC](#sbitrpc).
 + A factory method to instantiate [Contract](#contract-2) instances, for interacting with deployed contracts.
 
 Arg | Type
@@ -110,7 +110,7 @@ repoData | [IContractsRepoData](#icontractsrepodata)
 
 The `repoData` contains the ABI definitions of all the deployed contracts and libraries, as well as deploy addresses. This information is used to instantiate `Contract` instances.
 
-`Contract` instantiated with `SBit`'s factory method is able to decode all event types found in `repoData`. Whereas a `Contract` constructed manually is only able to decode event types defined in its scope, a limitation due to how the Solidity compiler output ABI definitions.
+`Contract` instantiated with ``'s factory method is able to decode all event types found in `repoData`. Whereas a `Contract` constructed manually is only able to decode event types defined in its scope, a limitation due to how the Solidity compiler output ABI definitions.
 
 It is recommended that you use Sbit to instantiate `Contract` instances.
 
@@ -129,13 +129,13 @@ name | string
 
 ## rawCall
 
-Inherited from [SBitRPC#rawcall](#rawcall-2)
+Inherited from [RPC#rawcall](#rawcall-2)
 
 # Contract
 
 A class abstraction for interacting with a Smart Contract.
 
-This is a more convenient API than using `SBitRPC` to directly call the RPC's `sendcontract` and `calltocontract` methods. It handles ABI encoding, to convert between JS and Solidity values.
+This is a more convenient API than using `RPC` to directly call the RPC's `sendcontract` and `calltocontract` methods. It handles ABI encoding, to convert between JS and Solidity values.
 
 * API for confirming transactions.
 * API for invoking contract's methods using `call` or `send` .
@@ -144,7 +144,7 @@ This is a more convenient API than using `SBitRPC` to directly call the RPC's `s
 ## constructor
 
 ```js
-const rpc = new SBitRPC("http://sbit:test@localhost:22002")
+const rpc = new RPC("http://sbit:test@localhost:22002")
 
 const myToken = new Contract(rpc, repo.contracts[
   "zeppelin-solidity/contracts/token/CappedToken.sol"
@@ -153,10 +153,10 @@ const myToken = new Contract(rpc, repo.contracts[
 
 Arg | Type | Description
 --------- | ----------- | -----------
-rpc | SBitRPC | The RPC instance used to interact with the contract.
+rpc | RPC | The RPC instance used to interact with the contract.
 info | [IContractInfo](#icontractinfo) | Information for the deployed contract
 
-It is recommended that you use [SBit#contract](#contract) instead of this constructor.
+It is recommended that you use [#contract](#contract) instead of this constructor.
 
 ## call
 
@@ -607,17 +607,17 @@ txid | string
 @return | Promise\<[IContractSendReceipt](#icontractsendreceipt)>
   | Transaction receipt, with event logs.
 
-# SBitRPC
+# RPC
 
 ```ts
-const rpc = new SBitRPC('http://sbit:test@localhost:22002');
+const rpc = new RPC('http://sbit:test@localhost:22002');
 ```
 
 This is a JSON-RPC client for direct access to the `sbitd` RPC API. It does not handle any ABI-encoding or decoding for you.
 
 You may included the RPC user & password in the URL if required. In the sample, the user is `sbit` and the password is `test`.
 
-Note: The `SBitRPC` class has a few undocumented public methods used internally by the `Contract` abstraction. Consider anything undocumented unsupported that could change in the future. Right now `rawCall` is the only public API.
+Note: The `RPC` class has a few undocumented public methods used internally by the `Contract` abstraction. Consider anything undocumented unsupported that could change in the future. Right now `rawCall` is the only public API.
 
 Arg | Type
 --------- | -----------

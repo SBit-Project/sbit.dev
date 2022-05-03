@@ -13,7 +13,7 @@ The intended audience for this document is developers who need to build transact
 
 ### Sbit's SRC20 standard
 
-Sbit's SRC20 standard is virtually identical to Ethereum's ERC20 standard. A SRC20 token contract in SBit typically would use the same template solidity contract as an ERC20 token. The only major exception being that SBit's SRC20 tokens typically use 8 decimal points instead of 18 in Ethereum. 
+Sbit's SRC20 standard is virtually identical to Ethereum's ERC20 standard. A SRC20 token contract in  typically would use the same template solidity contract as an ERC20 token. The only major exception being that 's SRC20 tokens typically use 8 decimal points instead of 18 in Ethereum. 
 
 
 ### Calldata for SRC20 calls
@@ -29,11 +29,11 @@ If we want to transfer 1.1 tokens from an address we control to the address "sL1
 Sbitd uses the same style of RPC interface as bitcoind. Most of the RPCs available to bitcoind are available in sbitd, as well as a few Sbit specific ones. Below follows a description of a few RPCs that are useful when creating or watching SRC20 token transactions.
 
 * **waitforlogs** - Used for listening for new events, e.g., in the context of SRC20 tokens it can be used to listen for new Transfer() events.
-* **createrawtransaction** - Same functionality as the SBitd equivalent with the addition of supporting OP_CALL transactions.
+* **createrawtransaction** - Same functionality as the d equivalent with the addition of supporting OP_CALL transactions.
 * **gettransactionreceipt** - Used to get a transaction receipt that provides information of any events emitted and the execution state of a transaction (e.g., gas used and whether an exception was triggered).
 * **callcontract** - Used to perform a read-only execution of a contract. Can be used to, for example, execute balanceOf() or decimals() methods of a SRC20 contract.
 * **sendtocontract** - Used to create and sign a contract transaction that is broadcast to the network. Can for example be used to execute the transfer() or approve() methods of a SRC20 contract.
-* **gethexaddress/fromhexaddress** - Used convert SBit's bitcoin-style base58 addresses to and from their 20-byte representation in hex.
+* **gethexaddress/fromhexaddress** - Used convert 's bitcoin-style base58 addresses to and from their 20-byte representation in hex.
 
 
 
@@ -152,7 +152,7 @@ sbit-cli -regtest sendtocontract $SRC20_CONTRACT $CALLDATA 0 100000 0.0000004 $S
 
 ### In depth on Sbit transactions
 
-Sbit uses Bitcoin-style transactions. The transaction format is basically identical to Bitcoin transactions with a few modifications to the SBit scripting engine. SBit introduces 4 new opcodes in the scripting engine to allow for interaction with the Sbit EVM. The only relevant opcode for this document is OP_CALL (0xc2). 
+Sbit uses Bitcoin-style transactions. The transaction format is basically identical to Bitcoin transactions with a few modifications to the  scripting engine.  introduces 4 new opcodes in the scripting engine to allow for interaction with the Sbit EVM. The only relevant opcode for this document is OP_CALL (0xc2). 
 
 ### OP_CALL
 
@@ -175,20 +175,20 @@ The script must follow the same rules for encoding as a typical bitcoin script, 
 
 ### Transaction Signing
 
-The process of signing a raw transaction in SBit is identical to signing a Bitcoin transaction. Typically, a raw transaction is signed using the `signrawtransactionwithkey` or `signrawtransactionwithwallet` in sbitd. Also, any Bitcoin library should be possible to be used to sign raw SBit transactions.
+The process of signing a raw transaction in  is identical to signing a Bitcoin transaction. Typically, a raw transaction is signed using the `signrawtransactionwithkey` or `signrawtransactionwithwallet` in sbitd. Also, any Bitcoin library should be possible to be used to sign raw  transactions.
 
 
 
-## Example of a raw SRC20 transfer using a SBitJS library
+## Example of a raw SRC20 transfer using a JS library
 
-Described below is the process of creating and signing a raw SRC20 transfer transaction using the SBit-js library.
+Described below is the process of creating and signing a raw SRC20 transfer transaction using the -js library.
 
 ```js
 var bitcoin = require('sbitjs-lib');
 var testnet = bitcoin.networks.testnet;
 
 /*
-	Example of transaction that creates and signs a SRC20 transfer transaction for SBit using the SBit-js library.
+	Example of transaction that creates and signs a SRC20 transfer transaction for  using the -js library.
 	The transaction format is nearly identical to that of Bitcoin, except for the OP_CALL output.
 	Note, since OP_CALL is a Sbit specific opcode, it needs to be hardcoded as 0xc2
 	The script below will assume that the input tx being spent is a P2PKH output.

@@ -1,6 +1,6 @@
 import React from "react";
 
-export function SBitLogo() {
+export function Logo() {
     return (
         <svg
             width="140" height="140"

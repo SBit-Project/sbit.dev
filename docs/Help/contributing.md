@@ -110,7 +110,7 @@ recommended to first open a pull request against the GUI repository. When there
 is agreement to proceed with the changes, a pull request with the build system
 and interfaces changes can be submitted to the node repository.
 
-The project coding conventions in the [developer notes](../SBit-Core/Development/developer-notes)
+The project coding conventions in the [developer notes](../-Core/Development/developer-notes)
 must be followed.
 
 ### Committing Patches
@@ -237,7 +237,7 @@ and the resulting git tree hash must be deterministic and reproducible.
 
 After a rebase, reviewers are encouraged to sign off on the force push. This should be relatively straightforward with
 the `git range-diff` tool explained in the [productivity
-notes](../SBit-Core/Development/productivity#diff-the-diffs-with-git-range-diff). To avoid needless review churn, maintainers will
+notes](../-Core/Development/productivity#diff-the-diffs-with-git-range-diff). To avoid needless review churn, maintainers will
 generally merge pull requests that received the most review attention first.
 
 Pull Request Philosophy
@@ -301,7 +301,7 @@ In general, all pull requests must:
     the project (for example refactoring for modularisation);
   - Be well peer-reviewed;
   - Have unit tests, functional tests, and fuzz tests, where appropriate;
-  - Follow code style guidelines ([C++](../SBit-Core/Development/developer-notes), [functional tests](https://github.com/SBit-Project/sbit/test/functional/README.md));
+  - Follow code style guidelines ([C++](../-Core/Development/developer-notes), [functional tests](https://github.com/-Project/sbit/test/functional/README.md));
   - Not break the existing test suite;
   - Where bugs are fixed, where possible, there should be unit tests
     demonstrating the bug and also proving the fix. This helps prevent regression.
@@ -382,7 +382,7 @@ about:
     (because people don't assume *others* won't actually like the proposal). Don't take
     that personally, though! Instead, take another critical look at what you are suggesting
     and see if it: changes too much, is too broad, doesn't adhere to the
-    [developer notes](../SBit-Core/Development/developer-notes), is dangerous or insecure, is messily written, etc.
+    [developer notes](../-Core/Development/developer-notes), is dangerous or insecure, is messily written, etc.
     Identify and address any of the issues you find. Then ask e.g. on IRC if someone could give
     their opinion on the concept itself.
   - It may be because your code is too complex for all but a few people, and those people

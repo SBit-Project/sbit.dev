@@ -34,10 +34,10 @@ function Features() {
                                  any Ethereum smart contract can run on <b>Sbit and vice versa</b>.
                                 </p>
                                 <p className="text-xl  dark:text-gray-200">
-                                Solidity can be used to write contracts for <b>SBit</b> as it is used to write contracts for <b>Ethereum</b>.
+                                Solidity can be used to write contracts for <b></b> as it is used to write contracts for <b>Ethereum</b>.
                                 </p>
                                 <p className="text-xl  dark:text-gray-200">
-                                This makes it incredibly easy for <b>Ethereum developers</b> to develop on <b>SBit</b>.
+                                This makes it incredibly easy for <b>Ethereum developers</b> to develop on <b></b>.
                                 </p>
                             </div>
                         </div>
