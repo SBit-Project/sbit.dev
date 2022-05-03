@@ -137,7 +137,7 @@ module.exports = {
                     ],
                   },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} - SBit Project`
+            copyright: `Copyright © ${new Date().getFullYear()} - Sbit Project`
         },
         prism: {
             theme: require('prism-react-renderer/themes/vsDark')
