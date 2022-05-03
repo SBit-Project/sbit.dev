@@ -1,6 +1,6 @@
 ---
-title: SBit Networks
-description: SBit Test and Main Networks
+title: Sbit Networks
+description: Sbit Test and Main Networks
 keywords: [sbit, bitcoin, blockchain, ethereum, docker, network]
 sidebar_position: 3
 ---
