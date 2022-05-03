@@ -132,7 +132,7 @@ module.exports = {
                       },
                       {
                         label: 'GitHub',
-                        href: 'https://github.com/SBit-Project/Book',
+                        href: 'https://github.com/SBit-Project/',
                       },
                     ],
                   },
