@@ -1,15 +1,15 @@
 ---
-title: SBit Sparknet Usage and Information
-description: SBit Sparknet Usage and Information
+title: Sbit Sparknet Usage and Information
+description: Sbit Sparknet Usage and Information
 keywords: [sbit, bitcoin, blockchain, ethereum]
 sidebar_position: 13
 ---
 
-Welcome to SBit Sparknet, the first public testnet for the SBit blockchain. Sparknet is designed primarily for developers, and as such documentation at this point will be technical and suited more for developers. The mainnet is expected to be released in September and will be suited for the general public. Testnet tokens do not hold any value and should not be traded for any monetary instruments. The testnet can be reset or forked at anytime as deemed necessary for development. Sparknet does not include support for Mutualized Proof Of Stake, or for the Decentralized Governance Protocol. Both of these features are implemented, and their code is available on alternative branches (check the pull requests), but have not been tested and proven stable enough to include in this testnet. They will be implemented in the 2nd public testnet for SBit. 
+Welcome to Sbit Sparknet, the first public testnet for the Sbit blockchain. Sparknet is designed primarily for developers, and as such documentation at this point will be technical and suited more for developers. The mainnet is expected to be released in September and will be suited for the general public. Testnet tokens do not hold any value and should not be traded for any monetary instruments. The testnet can be reset or forked at anytime as deemed necessary for development. Sparknet does not include support for Mutualized Proof Of Stake, or for the Decentralized Governance Protocol. Both of these features are implemented, and their code is available on alternative branches (check the pull requests), but have not been tested and proven stable enough to include in this testnet. They will be implemented in the 2nd public testnet for SBit. 
 
 # Using Smart Contracts with SBit
 
-The smart contract interface in SBit still requires some technical knowledge. The GUI is not completed yet, so all smart contract interation must happen either using `sbit-cli` at the command line, or in the debug window of `sbit-qt`. 
+The smart contract interface in Sbit still requires some technical knowledge. The GUI is not completed yet, so all smart contract interation must happen either using `sbit-cli` at the command line, or in the debug window of `sbit-qt`. 
 
 To demonstrate how to deploy and interact with a simple we will use this contract:
 
@@ -69,7 +69,7 @@ And finally, has the following JSON interface file:
 This info can easily be retrieved for any contract by using [Browser Solidity](https://ethereum.github.io/browser-solidity/), inputing your contract's source code, and then on the right hand side clicking "contract details" 
 
 :::note
-If using the debug window in the SBit Qt application, don't include `./sbit-cli` in the commands
+If using the debug window in the Sbit Qt application, don't include `./sbit-cli` in the commands
 :::
 
 First, we need to deploy the contract:
@@ -231,13 +231,13 @@ When creating this contract transaction, nothing will immediately happen, when t
 * Q: "I think I found a bug in SBit" A: Please report any bugs at https://github.com/SBit-Project/SBit/issues
 
 
-# New SBit RPC Commands
+# New Sbit RPC Commands
 
-SBit supports all of the RPC commands supported by SBit Core, but also includes the following commands unique to SBit:
+Sbit supports all of the RPC commands supported by Sbit Core, but also includes the following commands unique to SBit:
 
-* `createcontract` - This will create and deploy a new smart contract to the SBit blockchain. This requires gas.
-* `callcontract` - This will interact with an already deployed smart contract on the SBit blockchain, with all computation taking place off-chain and no persistence to the blockchain. This does not require gas
-* `sendtocontract` - This will interact with an already deployed smart contract on the SBit blockchain. All computation takes place on-chain and any state changes will be persisted to the blockchain. This allows tokens to be sent to a smart contract. This requires gas.
+* `createcontract` - This will create and deploy a new smart contract to the Sbit blockchain. This requires gas.
+* `callcontract` - This will interact with an already deployed smart contract on the Sbit blockchain, with all computation taking place off-chain and no persistence to the blockchain. This does not require gas
+* `sendtocontract` - This will interact with an already deployed smart contract on the Sbit blockchain. All computation takes place on-chain and any state changes will be persisted to the blockchain. This allows tokens to be sent to a smart contract. This requires gas.
 * `getaccountinfo` - This will show some low level information about a contract, including the contract's bytecode, stored data, and balance on the blockchain.
 * `listcontracts` - This will output a list of currently deployed contract addresses with their respective balance. This RPC call may change or be removed in the future.
 * `reservebalance` - This will reserve a set amount of coins so that they do not participate in staking. If you reserve as many or more coins than are in your wallet, then you will not participate at all in staking and block creation for the network.
@@ -246,25 +246,25 @@ SBit supports all of the RPC commands supported by SBit Core, but also includes 
 * `fromhexaddress` - this will convert a hex address used in smart contracts to a standard Base58 pubkeyhash address
 
 
-# New SBit Command Line Arguments
+# New Sbit Command Line Arguments
 
-SBit supports all of the usual command line arguments that SBit Core supports. In addition it adds the following new command line arguments:
+Sbit supports all of the usual command line arguments that Sbit Core supports. In addition it adds the following new command line arguments:
 
-* `-record-log-opcodes` - This will create a new log file in the SBit data directory (usually ~/.sbit) named vmExecLogs.json, where any EVM LOG opcode is logged along with topics and data that the contract requested be logged. 
+* `-record-log-opcodes` - This will create a new log file in the Sbit data directory (usually ~/.sbit) named vmExecLogs.json, where any EVM LOG opcode is logged along with topics and data that the contract requested be logged. 
 
 # Untested features
 
-Some features included in SBit Core have not been tested in it's porting to SBit. This includes:
+Some features included in Sbit Core have not been tested in it's porting to SBit. This includes:
 
 * Pruning
 
 # EVM Smart Contract Changes and Limitations
 
-Because of SBit's underlying technical differences, there are a few operations that can have different results or limitations when executed in SBit than when compared to Ethereum. 
+Because of SBit's underlying technical differences, there are a few operations that can have different results or limitations when executed in Sbit than when compared to Ethereum. 
 
 These include the following, though there may be others introduced in the future:  
 
-* The gas schedule for SBit is different from Ethereum. Certain operations are more or less expensive. As such, gas cost estimators designed for Ethereum will not give accurate results for SBit. We will develop our own gas estimating tools as well as fully documenting these differences at a later date. 
+* The gas schedule for Sbit is different from Ethereum. Certain operations are more or less expensive. As such, gas cost estimators designed for Ethereum will not give accurate results for SBit. We will develop our own gas estimating tools as well as fully documenting these differences at a later date. 
 * `block.coinbase` or the `COINBASE` opcode currently is not supported and will only return 0. When MPoS is released in the 2nd testnet this should be functioning as expected
 * `block.number` will return the previous block height before this block containing the contract's execution
 * `block.difficulty` will return the previous block's difficulty
