@@ -96,7 +96,7 @@ scli gettransaction \
 
 The `gettransaction` command presents the transaction data in a more human friendly form. We can see the underlying bitcoin data structure by decoding the raw data of a transaction.
 
-This data structure is key to understanding how the SBit ledger works.
+This data structure is key to understanding how the Sbit ledger works.
 
 The `hex` property returned previously is the raw transaction data. Or we could also look it up with `getrawtransaction`:
 
