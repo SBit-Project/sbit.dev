@@ -1,6 +1,6 @@
 ---
-title: SRC20 With SBitJS
-description: SRC20 With SBitJS
+title: SRC20 With SbitJS
+description: SRC20 With SbitJS
 keywords: [sbit, bitcoin, blockchain, ethereum, docker, network]
 sidebar_position: 2
 ---

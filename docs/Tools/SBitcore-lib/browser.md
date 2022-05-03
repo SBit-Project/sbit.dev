@@ -5,7 +5,7 @@ keywords: [sbit, bitcoin, blockchain, ethereum, sbitcore, tools]
 sidebar_position: 4
 ---
 
-SBitcore and most official submodules work in the browser, thanks to [browserify](http://browserify.org/) (some modules are not fully compatible with web browsers).
+Sbitcore and most official submodules work in the browser, thanks to [browserify](http://browserify.org/) (some modules are not fully compatible with web browsers).
 
 The easiest and recommended way to use them, is via [Bower](http://bower.io/), a browser package manager, and get the release bundles. For example, when building an app that uses `sbitcore` and `sbitcore-mnemonic`, you do:
 

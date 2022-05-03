@@ -8,7 +8,7 @@ sidebar_position: 8
 
 *Setup instructions for a Gitian build of Sbit Core using a Debian VM or physical system.*
 
-Gitian is the deterministic build process that is used to build the SBit
+Gitian is the deterministic build process that is used to build the Sbit
 Core executables. It provides a way to be reasonably sure that the
 executables are really built from the source on GitHub. It also makes sure that
 the same, tested dependencies are used and statically built into the executable.
@@ -449,5 +449,5 @@ Uploading signatures
 ---------------------
 
 After building and signing you can push your signatures (both the `.assert` and `.assert.sig` files) to the
-[SBit-Project/gitian.sigs](https://github.com/SBit-Project/gitian.sigs/) repository, or if that's not possible create a pull
+[Sbit-Project/gitian.sigs](https://github.com/SBit-Project/gitian.sigs/) repository, or if that's not possible create a pull
 request.

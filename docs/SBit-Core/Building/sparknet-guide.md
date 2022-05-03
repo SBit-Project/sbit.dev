@@ -5,9 +5,9 @@ keywords: [sbit, bitcoin, blockchain, ethereum]
 sidebar_position: 13
 ---
 
-Welcome to Sbit Sparknet, the first public testnet for the Sbit blockchain. Sparknet is designed primarily for developers, and as such documentation at this point will be technical and suited more for developers. The mainnet is expected to be released in September and will be suited for the general public. Testnet tokens do not hold any value and should not be traded for any monetary instruments. The testnet can be reset or forked at anytime as deemed necessary for development. Sparknet does not include support for Mutualized Proof Of Stake, or for the Decentralized Governance Protocol. Both of these features are implemented, and their code is available on alternative branches (check the pull requests), but have not been tested and proven stable enough to include in this testnet. They will be implemented in the 2nd public testnet for SBit. 
+Welcome to Sbit Sparknet, the first public testnet for the Sbit blockchain. Sparknet is designed primarily for developers, and as such documentation at this point will be technical and suited more for developers. The mainnet is expected to be released in September and will be suited for the general public. Testnet tokens do not hold any value and should not be traded for any monetary instruments. The testnet can be reset or forked at anytime as deemed necessary for development. Sparknet does not include support for Mutualized Proof Of Stake, or for the Decentralized Governance Protocol. Both of these features are implemented, and their code is available on alternative branches (check the pull requests), but have not been tested and proven stable enough to include in this testnet. They will be implemented in the 2nd public testnet for Sbit. 
 
-# Using Smart Contracts with SBit
+# Using Smart Contracts with Sbit
 
 The smart contract interface in Sbit still requires some technical knowledge. The GUI is not completed yet, so all smart contract interation must happen either using `sbit-cli` at the command line, or in the debug window of `sbit-qt`. 
 
@@ -16,9 +16,9 @@ To demonstrate how to deploy and interact with a simple we will use this contrac
 ```solidity
     pragma solidity ^0.4.0;
 
-    contract SBitTest {
+    contract SbitTest {
        uint storedNumber;
-       function SBitTest() {
+       function SbitTest() {
            storedNumber=1;
        }
        function setNumber(uint number) public{
@@ -185,7 +185,7 @@ Afterwards, we can call `returnNumber()` again and check the `output` field:
 
 This is 123456 encoded as hex. 
 
-You can also use the `logNumber()` function in order to generate logs. If your node was started with `-record-log-opcodes`, then the file `vmExecLogs.json` will contain any log operations that occur on the blockchain. This is what is used for events on the Ethereum blockchain, and eventually it is our intention to bring similar functionality to SBit.
+You can also use the `logNumber()` function in order to generate logs. If your node was started with `-record-log-opcodes`, then the file `vmExecLogs.json` will contain any log operations that occur on the blockchain. This is what is used for events on the Ethereum blockchain, and eventually it is our intention to bring similar functionality to Sbit.
 
 You can also deposit and withdraw coins from this test contract using the `deposit()` and `withdraw()` functions.
 
@@ -228,12 +228,12 @@ When creating this contract transaction, nothing will immediately happen, when t
 * Q: "I used `createcontract`, but can't call my contract and it's not in listcontract" A: You probably did not provide enough gas for the contract's constructor to be executed and it's code persisted in the blockchain. The vm.log file should confirm this by saying how much gas was needed
 * Q: "I sent a large amount of gas but I never got a refund" A: Refunds are generated from the coinstake transaction, so you must wait 500 blocks for the gas refund to mature before it can be spent again
 * Q: "I used -reindex and now my node is taking forever to resync" A: Currently when doing a reindex, all contracts are reprocessed, so in a chain with many contract executions this can add up to a significant amount of time. This will be made faster in the future, as well as the initial syncing speed of nodes
-* Q: "I think I found a bug in SBit" A: Please report any bugs at https://github.com/SBit-Project/sbit/issues
+* Q: "I think I found a bug in Sbit" A: Please report any bugs at https://github.com/SBit-Project/sbit/issues
 
 
 # New Sbit RPC Commands
 
-Sbit supports all of the RPC commands supported by Sbit Core, but also includes the following commands unique to SBit:
+Sbit supports all of the RPC commands supported by Sbit Core, but also includes the following commands unique to Sbit:
 
 * `createcontract` - This will create and deploy a new smart contract to the Sbit blockchain. This requires gas.
 * `callcontract` - This will interact with an already deployed smart contract on the Sbit blockchain, with all computation taking place off-chain and no persistence to the blockchain. This does not require gas
@@ -254,17 +254,17 @@ Sbit supports all of the usual command line arguments that Sbit Core supports. I
 
 # Untested features
 
-Some features included in Sbit Core have not been tested in it's porting to SBit. This includes:
+Some features included in Sbit Core have not been tested in it's porting to Sbit. This includes:
 
 * Pruning
 
 # EVM Smart Contract Changes and Limitations
 
-Because of SBit's underlying technical differences, there are a few operations that can have different results or limitations when executed in Sbit than when compared to Ethereum. 
+Because of Sbit's underlying technical differences, there are a few operations that can have different results or limitations when executed in Sbit than when compared to Ethereum. 
 
 These include the following, though there may be others introduced in the future:  
 
-* The gas schedule for Sbit is different from Ethereum. Certain operations are more or less expensive. As such, gas cost estimators designed for Ethereum will not give accurate results for SBit. We will develop our own gas estimating tools as well as fully documenting these differences at a later date. 
+* The gas schedule for Sbit is different from Ethereum. Certain operations are more or less expensive. As such, gas cost estimators designed for Ethereum will not give accurate results for Sbit. We will develop our own gas estimating tools as well as fully documenting these differences at a later date. 
 * `block.coinbase` or the `COINBASE` opcode currently is not supported and will only return 0. When MPoS is released in the 2nd testnet this should be functioning as expected
 * `block.number` will return the previous block height before this block containing the contract's execution
 * `block.difficulty` will return the previous block's difficulty

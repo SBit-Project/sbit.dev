@@ -154,7 +154,7 @@ Open http://localhost:3000
 The `rpc` and `myToken` instances are initialized with two global constants:
 
 ```js
-const rpc = new SBitRPC(SBIT_RPC)
+const rpc = new SbitRPC(SBIT_RPC)
 
 const myToken = new Contract(rpc, SOLAR_REPO.contracts["zeppelin-solidity/contracts/token/CappedToken.sol"])
 ```

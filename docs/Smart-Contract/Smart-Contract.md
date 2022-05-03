@@ -7,7 +7,7 @@ sidebar_position: 1
 
 ## About SRC20
 
-SRC20 is the implementation of a standard API for tokens within smart contracts on SBit，basically it is the same as ERC20.
+SRC20 is the implementation of a standard API for tokens within smart contracts on Sbit，basically it is the same as ERC20.
 Methods and Events：
 
 ```

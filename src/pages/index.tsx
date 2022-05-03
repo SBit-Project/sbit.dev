@@ -10,7 +10,7 @@ import FeaturesBlocks from "../partials/FeaturesBlocks";
 import Testimonials from "../partials/Testimonials";
 
 import Separator from "../partials/Separator";
-import SBitIntro from "../partials/SBitIntro";
+import SbitIntro from "../partials/SbitIntro";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -59,7 +59,7 @@ function Home() {
 
     return (
         <Layout
-            title={"SBit"}
+            title={"Sbit"}
             description="Smart Bitcoin Blockchain">
 
             <div className="flex flex-col min-h-screen overflow-hidden ">
@@ -67,7 +67,7 @@ function Home() {
                 <main className="flex-grow">
                     <HeroHome/>
                     <Separator/>
-                    <SBitIntro/>
+                    <SbitIntro/>
                     <FeaturesHome/>
                     <Separator/>
                     <FeaturesBlocks/>
