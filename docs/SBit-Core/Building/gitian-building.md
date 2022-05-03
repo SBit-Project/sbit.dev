@@ -265,7 +265,7 @@ Clone the git repositories for sbit and Gitian.
 
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
-git clone https://github.com/SBit-Project/SBit --recursive
+git clone https://github.com/SBit-Project/sbit --recursive
 git clone https://github.com/SBit-Project/gitian.sigs.git
 ```
 
