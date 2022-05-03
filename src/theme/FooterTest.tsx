@@ -300,7 +300,7 @@ function FooterTest() {
                             className="text-blue-600 hover:underline"
                             href="https://sbit.dev/"
                         >
-                            SBit Dev
+                            Sbit Dev
                         </a>
                     </div>
                 </div>
