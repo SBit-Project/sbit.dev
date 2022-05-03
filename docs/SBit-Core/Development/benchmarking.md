@@ -1,12 +1,12 @@
 ---
 title: Benchmarking
-description: SBit Core Benchmarking framework
+description: Sbit Core Benchmarking framework
 keywords: [sbit, bitcoin, blockchain, ethereum]
 sidebar_position: 1
 ---
 
 
-SBit Core has an internal benchmarking framework, with benchmarks
+Sbit Core has an internal benchmarking framework, with benchmarks
 for cryptographic algorithms (e.g. SHA1, SHA256, SHA512, RIPEMD160, Poly1305, ChaCha20), rolling bloom filter, coins selection,
 thread queue, wallet balance.
 
