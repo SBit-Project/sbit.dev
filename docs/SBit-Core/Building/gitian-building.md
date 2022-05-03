@@ -1,12 +1,12 @@
 ---
 title: Gitian building
-description: Setup instructions for a Gitian build of SBit Core using a Debian VM or physical system.
+description: Setup instructions for a Gitian build of Sbit Core using a Debian VM or physical system.
 keywords: [sbit, bitcoin, blockchain, ethereum]
 sidebar_position: 8
 ---
 
 
-*Setup instructions for a Gitian build of SBit Core using a Debian VM or physical system.*
+*Setup instructions for a Gitian build of Sbit Core using a Debian VM or physical system.*
 
 Gitian is the deterministic build process that is used to build the SBit
 Core executables. It provides a way to be reasonably sure that the
@@ -31,7 +31,7 @@ Table of Contents
 - [Installing Gitian](#installing-gitian)
 - [Setting up the Gitian image](#setting-up-the-gitian-image)
 - [Getting and building the inputs](#getting-and-building-the-inputs)
-- [Building SBit Core](#building-sbit-core)
+- [Building Sbit Core](#building-sbit-core)
 - [Building an alternative repository](#building-an-alternative-repository)
 - [Signing externally](#signing-externally)
 - [Uploading signatures](#uploading-signatures)
@@ -311,10 +311,10 @@ manual intervention. Also optionally follow the next step: 'Seed the Gitian sour
 and offline git repositories' which will fetch the remaining files required for building
 offline.
 
-Building SBit Core
+Building Sbit Core
 ----------------
 
-To build SBit Core (for Linux, OS X and Windows) just follow the steps under 'perform
+To build Sbit Core (for Linux, OS X and Windows) just follow the steps under 'perform
 Gitian builds' in [doc/release-process.md](../Development/release-process#perform-gitian-builds) in the sbit repository.
 
 This may take some time as it will build all the dependencies needed for each descriptor.
