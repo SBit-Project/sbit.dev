@@ -6,18 +6,18 @@ sidebar_position: 1
 ---
 
 :::tip Contributions
-SBit welcomes contributions from anyone.
+Sbit welcomes contributions from anyone.
 :::
 
 :::tip
-Currently, the SBit is in development and would benefit from contributions in the form of writing code, user testing, documentation, and community support
+Currently, the Sbit is in development and would benefit from contributions in the form of writing code, user testing, documentation, and community support
 :::
 
 
 Branching strategy
 ==================
 
-SBit uses four branches to ensure stability without slowing down
+Sbit uses four branches to ensure stability without slowing down
 the pace of the daily development activities.
 
 ### development
@@ -65,7 +65,7 @@ The Travis CI system makes sure that every pull request is built for Windows, Li
 ## Please take some time to read the following, this is for your own safety!
 
 :::danger Warning
-DO NOT give your private keys to anyone. No one from the SBit project will ever ask you for your private keys, only you can have access to them as they control your funds. If you give your private keys to someone else, you just gave them all your SBIT.
+DO NOT give your private keys to anyone. No one from the Sbit project will ever ask you for your private keys, only you can have access to them as they control your funds. If you give your private keys to someone else, you just gave them all your SBIT.
 :::
 
 :::danger Warning
@@ -77,9 +77,9 @@ ALWAYS make backups, any wallet, or important data (private keys) must be backed
 :::
 
 :::caution
-SBit is open source software, provided as-is with no warranty.
+Sbit is open source software, provided as-is with no warranty.
 :::
 
 :::caution
-SBit Core is considered beta software. We make no warranties or guarantees of its security or stability.
+Sbit Core is considered beta software. We make no warranties or guarantees of its security or stability.
 :::
