@@ -1,13 +1,13 @@
 ---
 title: Dependencies
-description: These are the dependencies currently used by SBit Core
+description: These are the dependencies currently used by Sbit Core
 keywords: [sbit, bitcoin, blockchain, ethereum]
 sidebar_position: 10
 ---
 
 
 
-These are the dependencies currently used by SBit Core. You can find instructions for installing them in the `build-*.md` file for your platform.
+These are the dependencies currently used by Sbit Core. You can find instructions for installing them in the `build-*.md` file for your platform.
 
 | Dependency     | Version used | Minimum required | CVEs | Shared | [Bundled Qt library](https://doc.qt.io/qt-5/configure-options.html#third-party-libraries) |
 | -------------- | --- | --- | --- | --- | --- |
