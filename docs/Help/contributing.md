@@ -6,12 +6,12 @@ sidebar_label: Contributing
 Contributing to Sbit Core
 ============================
 
-The SBit Core project operates an open contributor model where anyone is
+The Sbit Core project operates an open contributor model where anyone is
 welcome to contribute towards development in the form of peer review, testing
 and patches. This document explains the practical process and guidelines for
 contributing.
 
-First, in terms of structure, there is no particular concept of "SBit Core
+First, in terms of structure, there is no particular concept of "Sbit Core
 developers" in the sense of privileged people. Open source often naturally
 revolves around a meritocracy where contributors earn trust from the developer
 community over time. Nevertheless, some hierarchy is necessary for practical
@@ -30,9 +30,9 @@ as a new contributor. It also will teach you much more about the code and
 process than opening pull requests. Please refer to the [peer review](#peer-review)
 section below.
 
-Before you start contributing, familiarize yourself with the SBit Core build
+Before you start contributing, familiarize yourself with the Sbit Core build
 system and tests. Refer to the documentation in the repository on how to build
-SBit Core and how to run the unit tests, functional tests, and fuzz tests.
+Sbit Core and how to run the unit tests, functional tests, and fuzz tests.
 
 There are many open issues of varying difficulty waiting to be fixed.
 If you're looking for somewhere to start contributing, check out the
@@ -43,7 +43,7 @@ Some of them might no longer be applicable. So if you are interested, but
 unsure, you might want to leave a comment on the issue first.
 
 You may also participate in the weekly
-[SBit Core PR Review Club](https://bitcoincore.reviews/) meeting.
+[Sbit Core PR Review Club](https://bitcoincore.reviews/) meeting.
 
 ### Good First Issue Label
 
@@ -61,7 +61,7 @@ and is also an effective way to request assistance if and when you need it.
 Communication Channels
 ----------------------
 
-Most communication about SBit Core development happens on IRC, in the
+Most communication about Sbit Core development happens on IRC, in the
 `#sbit-core-dev` channel on Freenode. The easiest way to participate on IRC is
 with the web client, [webchat.freenode.net](https://webchat.freenode.net/). Chat
 history logs can be found
@@ -175,7 +175,7 @@ mailing list discussions).
 The description for a new pull request should not contain any `@` mentions. The
 PR description will be included in the commit message when the PR is merged and
 any users mentioned in the description will be annoyingly notified each time a
-fork of SBit Core copies the merge. Instead, make any username mentions in a
+fork of Sbit Core copies the merge. Instead, make any username mentions in a
 subsequent comment to the PR.
 
 ### Translation changes
@@ -284,11 +284,11 @@ workload on reviewing.
 "Decision Making" Process
 -------------------------
 
-The following applies to code changes to the SBit Core project (and related
+The following applies to code changes to the Sbit Core project (and related
 projects such as libsecp256k1), and is not to be confused with overall Bitcoin
 Network Protocol consensus changes.
 
-Whether a pull request is merged into SBit Core rests with the project merge
+Whether a pull request is merged into Sbit Core rests with the project merge
 maintainers and ultimately the project lead.
 
 Maintainers will take into consideration if a patch is in line with the general
@@ -360,7 +360,7 @@ higher in terms of discussion and peer review requirements, keeping in mind that
 mistakes could be very costly to the wider community. This includes refactoring
 of consensus-critical code.
 
-Where a patch set proposes to change the SBit consensus, it must have been
+Where a patch set proposes to change the Sbit consensus, it must have been
 discussed extensively on the mailing list and IRC, be accompanied by a widely
 discussed BIP and have a generally widely perceived technical consensus of being
 a worthwhile change based on the judgement of the maintainers.
@@ -427,7 +427,7 @@ https://github.com/sbit-core/bitcoin-maintainer-tools#backport).
 Release Policy
 --------------
 
-The project leader is the release manager for each SBit Core release.
+The project leader is the release manager for each Sbit Core release.
 
 Copyright
 ---------
