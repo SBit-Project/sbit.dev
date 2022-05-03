@@ -1,13 +1,13 @@
 ---
 title: Fuzzing
-description: Fuzzing SBit Core using libFuzzer
+description: Fuzzing Sbit Core using libFuzzer
 keywords: [sbit, bitcoin, blockchain, ethereum]
 sidebar_position: 2
 ---
 
 ## Quickstart guide
 
-To quickly get started fuzzing SBit Core using [libFuzzer](https://llvm.org/docs/LibFuzzer.html):
+To quickly get started fuzzing Sbit Core using [libFuzzer](https://llvm.org/docs/LibFuzzer.html):
 
 ```shell
 $ git clone https://github.com/SBit-Project/sbit --recursive
@@ -77,7 +77,7 @@ example using `brew install llvm`.
 
 Should you run into problems with the address sanitizer, it is possible you
 may need to run `./configure` with `--disable-asm` to avoid errors
-with certain assembly code from SBit Core's code. See [developer notes on sanitizers](../Development/developer-notes#sanitizers)
+with certain assembly code from Sbit Core's code. See [developer notes on sanitizers](../Development/developer-notes#sanitizers)
 for more information.
 
 You may also need to take care of giving the correct path for `clang` and
@@ -92,11 +92,11 @@ Full configure that was tested on macOS Catalina with `brew` installed `llvm`:
 
 Read the [libFuzzer documentation](https://llvm.org/docs/LibFuzzer.html) for more information. This [libFuzzer tutorial](https://github.com/google/fuzzing/blob/master/tutorial/libFuzzerTutorial.md) might also be of interest.
 
-# Fuzzing SBit Core using american fuzzy lop (`afl-fuzz`)
+# Fuzzing Sbit Core using american fuzzy lop (`afl-fuzz`)
 
 ## Quickstart guide
 
-To quickly get started fuzzing SBit Core using [`afl-fuzz`](https://github.com/google/afl):
+To quickly get started fuzzing Sbit Core using [`afl-fuzz`](https://github.com/google/afl):
 
 ```shell
 $ git clone https://github.com/SBit-Project/sbit --recursive
@@ -120,11 +120,11 @@ $ afl/afl-fuzz -i inputs/ -o outputs/ -- src/test/fuzz/bech32
 
 Read the [`afl-fuzz` documentation](https://github.com/google/afl) for more information.
 
-# Fuzzing SBit Core using Honggfuzz
+# Fuzzing Sbit Core using Honggfuzz
 
 ## Quickstart guide
 
-To quickly get started fuzzing SBit Core using [Honggfuzz](https://github.com/google/honggfuzz):
+To quickly get started fuzzing Sbit Core using [Honggfuzz](https://github.com/google/honggfuzz):
 
 ```shell
 $ git clone https://github.com/SBit-Project/sbit --recursive
