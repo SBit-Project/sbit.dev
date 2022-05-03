@@ -378,7 +378,7 @@ export interface IContractSendRequestOptions {
   gasLimit?: number
 
   /**
-   * SBit price per gas unit, default: 0.00000001, min:0.00000001
+   * Sbit price per gas unit, default: 0.00000001, min:0.00000001
    */
   gasPrice?: number | string
 
