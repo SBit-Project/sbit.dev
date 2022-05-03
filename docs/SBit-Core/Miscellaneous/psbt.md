@@ -1,6 +1,6 @@
 ---
 title: PSBT
-description: PSBT Howto for SBit Core
+description: PSBT Howto for Sbit Core
 keywords: [sbit, bitcoin, blockchain, ethereum]
 sidebar_position: 4
 ---
