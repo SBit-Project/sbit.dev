@@ -1,6 +1,6 @@
 ---
 title: Basic wallet functions
-description: Basic SBit wallet functions
+description: Basic Sbit wallet functions
 keywords: [sbit, bitcoin, blockchain, ethereum, wallet, security]
 sidebar_position: 6
 ---
