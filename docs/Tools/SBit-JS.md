@@ -1,6 +1,6 @@
 ---
-title: SBit JS API Reference
-description: SBit JS API Reference
+title: Sbit JS API Reference
+description: Sbit JS API Reference
 keywords: [sbit, API, js, tools]
 ---
 
@@ -10,7 +10,7 @@ keywords: [sbit, API, js, tools]
 npm install sbitjs
 ```
 
-SBitJS is a JavaScript library for developing DApp on the SBit blockchain. You can use this library to develop frontend UI that runs in the browser, as well as backend server scripts that run in NodeJS.
+SBitJS is a JavaScript library for developing DApp on the Sbit blockchain. You can use this library to develop frontend UI that runs in the browser, as well as backend server scripts that run in NodeJS.
 
 The main classes are:
 
@@ -27,7 +27,7 @@ But you can also choose to use plain JavaScript and notepad if you prefer.
 This document is the reference for SBitJS API, and its basic uses. For a tutorial-style introduction to SBitJS, see: [SBitBook - SRC20 With SBitJS](https://github.com/SBit-Project/sbitbook/blob/master/part2/src20-js.md).
 
 
-## Running SBit RPC
+## Running Sbit RPC
 
 > To run sbitd in development mode.
 
@@ -112,7 +112,7 @@ The `repoData` contains the ABI definitions of all the deployed contracts and li
 
 `Contract` instantiated with `SBit`'s factory method is able to decode all event types found in `repoData`. Whereas a `Contract` constructed manually is only able to decode event types defined in its scope, a limitation due to how the Solidity compiler output ABI definitions.
 
-It is recommended that you use SBit to instantiate `Contract` instances.
+It is recommended that you use Sbit to instantiate `Contract` instances.
 
 ## contract
 
@@ -626,7 +626,7 @@ url | string
 
 ## rawCall
 
-> Call the `getinfo` RPC method to get basic information about the SBit blockchain:
+> Call the `getinfo` RPC method to get basic information about the Sbit blockchain:
 
 ```ts
 const info = await rpc.rawCall("getinfo")
@@ -825,7 +825,7 @@ const result = await rpc.rawCall("getblockcount")
 
 ## Example: getnewaddress
 
-Returns a new SBit address for receiving payments. This might be useful for exchanges that need to generate deposit addresses for users.
+Returns a new Sbit address for receiving payments. This might be useful for exchanges that need to generate deposit addresses for users.
 
 ```ts
 const result = await rpc.rawCall("getnewaddress")
@@ -1034,7 +1034,7 @@ export interface IContractSendRequestOptions {
   gasLimit?: number
 
   /**
-   * SBit price per gas unit, default: 0.00000001, min:0.00000001
+   * Sbit price per gas unit, default: 0.00000001, min:0.00000001
    */
   gasPrice?: number | string
 
