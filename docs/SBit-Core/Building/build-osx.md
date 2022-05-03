@@ -79,7 +79,7 @@ brew install berkeley-db4
 1. Clone the Sbit Core source code:
 
     ```shell
-    git clone --recursive https://github.com/SBit-Project/SBit.git
+    git clone --recursive https://github.com/SBit-Project/sbit.git
     cd sbit
     ```
 
