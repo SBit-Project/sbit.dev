@@ -415,7 +415,7 @@ Then when building, override the remote URLs that gbuild would otherwise pull fr
 ```bash
 
 cd /some/root/path/
-git clone https://github.com/SBit-Project/SBit-detached-sigs.git
+git clone https://github.com/SBit-Project/sbit-detached-sigs.git
 
 BTCPATH=/some/root/path/sbit
 SIGPATH=/some/root/path/sbit-detached-sigs
