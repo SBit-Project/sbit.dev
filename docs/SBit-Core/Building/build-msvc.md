@@ -1,13 +1,13 @@
 ---
-title: Building SBit Core with Visual Studio
-description: Some notes on how to build SBit Core in Visual Studio.
+title: Building Sbit Core with Visual Studio
+description: Some notes on how to build Sbit Core in Visual Studio.
 keywords: [sbit, bitcoin, blockchain, ethereum]
 sidebar_position: 7
 ---
 
 Introduction
 ---------------------
-Solution and project files to build the SBit Core applications `msbuild` or Visual Studio can be found in the `build_msvc` directory. The build has been tested with Visual Studio 2017 and 2019.
+Solution and project files to build the Sbit Core applications `msbuild` or Visual Studio can be found in the `build_msvc` directory. The build has been tested with Visual Studio 2017 and 2019.
 
 Building with Visual Studio is an alternative to the Linux based [cross-compiler build](build-windows).
 
