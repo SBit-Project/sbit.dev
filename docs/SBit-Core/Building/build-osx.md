@@ -1,6 +1,6 @@
 ---
 title: macOS Build guide
-description: Some notes on how to build SBit Core in macOS.
+description: Some notes on how to build Sbit Core in macOS.
 keywords: [sbit, bitcoin, blockchain, ethereum]
 sidebar_position: 5
 ---
@@ -43,7 +43,7 @@ brew imagemagick --with-librsvg
 ```
 
 The wallet support requires one or both of the dependencies ([*SQLite*](#sqlite) and [*Berkeley DB*](#berkeley-db)) in the sections below.
-To build SBit Core without wallet, see [*Disable-wallet mode*](#disable-wallet-mode).
+To build Sbit Core without wallet, see [*Disable-wallet mode*](#disable-wallet-mode).
 
 #### SQLite
 
@@ -74,18 +74,18 @@ Also, the Homebrew package could be installed:
 brew install berkeley-db4
 ```
 
-## Build SBit Core
+## Build Sbit Core
 
-1. Clone the SBit Core source code:
+1. Clone the Sbit Core source code:
 
     ```shell
     git clone --recursive https://github.com/SBit-Project/SBit.git
     cd sbit
     ```
 
-2.  Build SBit Core:
+2.  Build Sbit Core:
 
-    Configure and build the headless SBit Core binaries as well as the GUI (if Qt is found).
+    Configure and build the headless Sbit Core binaries as well as the GUI (if Qt is found).
 
     You can disable the GUI build by passing `--without-gui` to configure.
 
@@ -108,7 +108,7 @@ brew install berkeley-db4
     ```
 
 ## Disable-wallet mode
-When the intention is to run only a P2P node without a wallet, SBit Core may be
+When the intention is to run only a P2P node without a wallet, Sbit Core may be
 compiled in disable-wallet mode with:
 
 ```shell
