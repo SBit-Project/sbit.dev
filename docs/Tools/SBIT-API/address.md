@@ -1,6 +1,6 @@
 ---
 title: Address API
-description: SBit Explorer Address API
+description: Sbit Explorer Address API
 keywords: [sbit, api, explorer, tools]
 ---
 

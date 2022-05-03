@@ -1,5 +1,5 @@
 ---
-title: SBit UnspentOutput
+title: Sbit UnspentOutput
 description: sbitcore.Transaction.UnspentOutput is a class with stateless instances that provides information about an unspent output
 keywords: [sbit, bitcoin, blockchain, ethereum, sbitcore, tools]
 sidebar_position: 15

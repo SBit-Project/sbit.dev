@@ -1,6 +1,6 @@
 ---
 title: Contract API
-description: SBit Explorer Contract API
+description: Sbit Explorer Contract API
 keywords: [sbit, api, explorer, tools]
 ---
 

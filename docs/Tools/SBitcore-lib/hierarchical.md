@@ -1,5 +1,5 @@
 ---
-title: SBit HDKeys
+title: Sbit HDKeys
 description: Create and derive extended public and private keys according to the BIP32 standard for Hierarchical Deterministic (HD) keys.
 keywords: [sbit, bitcoin, blockchain, ethereum, sbitcore, tools]
 sidebar_position: 8

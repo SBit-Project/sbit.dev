@@ -1,6 +1,6 @@
 ---
 title: Blockchain API
-description: SBit Explorer Blockchain API
+description: Sbit Explorer Blockchain API
 keywords: [sbit, api, explorer, tools]
 ---
 

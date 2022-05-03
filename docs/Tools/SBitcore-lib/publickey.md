@@ -1,6 +1,6 @@
 ---
-title: SBit Public Key
-description: SBit Public Key
+title: Sbit Public Key
+description: Sbit Public Key
 keywords: [sbit, bitcoin, blockchain, ethereum, sbitcore, tools]
 sidebar_position: 11
 ---

@@ -1,6 +1,6 @@
 ---
 title: Transaction API
-description: SBit Explorer Transaction API
+description: Sbit Explorer Transaction API
 keywords: [sbit, api, explorer, tools]
 ---
 

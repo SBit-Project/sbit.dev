@@ -1,5 +1,5 @@
 ---
-title: SBit Networks
+title: Sbit Networks
 description: SBitcore provides support for the main SBIT network as well as for testnet,
 keywords: [sbit, bitcoin, blockchain, ethereum, sbitcore, tools]
 sidebar_position: 9

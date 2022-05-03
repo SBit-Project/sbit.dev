@@ -1,6 +1,6 @@
 ---
 title: SRC20 API
-description: SBit Explorer SRC20 API
+description: Sbit Explorer SRC20 API
 keywords: [sbit, api, explorer, tools]
 ---
 

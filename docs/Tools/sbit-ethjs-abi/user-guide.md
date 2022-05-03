@@ -5,7 +5,7 @@ keywords: [sbit, bitcoin, blockchain, ethereum, api, tools]
 sidebar_position: 2
 ---
 
-All information for developers using `SBit ethjs-abi` should consult this document.
+All information for developers using `Sbit ethjs-abi` should consult this document.
 
 ## Install
 

@@ -1,5 +1,5 @@
 ---
-title: SBit Unit
+title: Sbit Unit
 description: Unit is a utility for handling and converting SBIT units
 keywords: [sbit, bitcoin, blockchain, ethereum, sbitcore, tools]
 sidebar_position: 14

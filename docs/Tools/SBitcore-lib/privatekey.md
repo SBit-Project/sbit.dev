@@ -1,6 +1,6 @@
 ---
-title: SBit Private Key
-description: SBit Private Key
+title: Sbit Private Key
+description: Sbit Private Key
 keywords: [sbit, bitcoin, blockchain, ethereum, sbitcore, tools]
 sidebar_position: 10
 ---

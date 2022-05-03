@@ -1,6 +1,6 @@
 ---
-title: SBit Explorer API Documentation
-description: SBit explorer API Documentation 
+title: Sbit Explorer API Documentation
+description: Sbit explorer API Documentation 
 keywords: [sbit, api, explorer, tools]
 ---
 

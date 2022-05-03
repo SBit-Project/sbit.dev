@@ -5,7 +5,7 @@ keywords: [sbit, bitcoin, blockchain, ethereum, api, tools]
 sidebar_position: 3
 ---
 
-All information regarding contributing to and progressing `SBit ethjs-abi` module can be found in this document.
+All information regarding contributing to and progressing `Sbit ethjs-abi` module can be found in this document.
 
 ## Install
 

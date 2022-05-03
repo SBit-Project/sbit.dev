@@ -1,6 +1,6 @@
 ---
-title: SBit Transaction
-description: SBit Transaction
+title: Sbit Transaction
+description: Sbit Transaction
 keywords: [sbit, bitcoin, blockchain, ethereum, sbitcore, tools]
 sidebar_position: 13
 ---

@@ -1,6 +1,6 @@
 ---
 title: Block API
-description: SBit Explorer Block API
+description: Sbit Explorer Block API
 keywords: [sbit, api, explorer, tools]
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: SBit URIs
+title: Sbit URIs
 description: URIs represents a SBIT payment URI
 keywords: [sbit, bitcoin, blockchain, ethereum, sbitcore, tools]
 sidebar_position: 16

@@ -1,6 +1,6 @@
 ---
-title: SBit Script
-description: SBit Script
+title: Sbit Script
+description: Sbit Script
 keywords: [sbit, bitcoin, blockchain, ethereum, sbitcore, tools]
 sidebar_position: 12
 ---
