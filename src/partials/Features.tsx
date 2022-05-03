@@ -31,7 +31,7 @@ function Features() {
                                 </div>
                                 <p className="text-xl  dark:text-gray-200">
                                 Smart Bitcoin uses the <b>EVM (Ethereum virtual Machine)</b>,
-                                 any Ethereum smart contract can run on <b>SBit and vice versa</b>.
+                                 any Ethereum smart contract can run on <b>Sbit and vice versa</b>.
                                 </p>
                                 <p className="text-xl  dark:text-gray-200">
                                 Solidity can be used to write contracts for <b>SBit</b> as it is used to write contracts for <b>Ethereum</b>.
@@ -86,7 +86,7 @@ function Features() {
                                 </p>
                                 <p className="text-xl  dark:text-gray-200">
                                 The AAL not only allows the EVM to live on top of a UTXO blockchain,
-                                it also means that SBit <b>is not confined to using the EVM as a smart contracts platform</b>.
+                                it also means that Sbit <b>is not confined to using the EVM as a smart contracts platform</b>.
                                 </p>
                                 <p className="text-xl  dark:text-gray-200">
                                 Any other smart contracts <b>VM compatible with the AAL</b> can be used to <b>replace the EVM</b>.
@@ -170,12 +170,12 @@ function Features() {
                                 </div>
 
                                 <p className="text-xl  dark:text-gray-200">
-                                Decentralised Governance Protocol (DGP) allows owners of SBit to vote on
+                                Decentralised Governance Protocol (DGP) allows owners of Sbit to vote on
                                  and enact changes to a limited set of blockchain parameters 
                                 <b> (e.g. block size and block time) without needing hard forks</b>.
                                 </p>
                                 <p className="text-xl  dark:text-gray-200">
-                                This not only allows SBit to efficiently adapt to changing network conditions, 
+                                This not only allows Sbit to efficiently adapt to changing network conditions, 
                                 <b> it also allows quick recovery from certain kinds of attacks on the network</b>.
                                 </p>
                             </div>
