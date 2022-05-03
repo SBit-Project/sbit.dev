@@ -1,19 +1,19 @@
 ---
 title: Introduction
-description: SBit Core Building and Development
+description: Sbit Core Building and Development
 keywords: [sbit, bitcoin, blockchain, ethereum]
 sidebar_position: 1
 ---
 
-SBit Core is the original SBit client and it builds the backbone of the network. It downloads and, by default, stores the entire history of SBit transactions.
+Sbit Core is the original Sbit client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Sbit transactions.
 
 :::caution
-SBit is still under active development, be aware that breaking changes may occur.
+Sbit is still under active development, be aware that breaking changes may occur.
 :::
 
 Building
 ---------------------
-The following are developer notes on how to build SBit Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Sbit Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [Dependencies](Building/dependencies)
 - [macOS Build Notes](Building/build-osx)
@@ -23,7 +23,7 @@ The following are developer notes on how to build SBit Core on your native platf
 - [OpenBSD Build Notes](Building/build-openbsd)
 - [NetBSD Build Notes](Building/build-netbsd)
 - [Gitian Building Guide](Building/gitian-building)
-- [Building SBit Core with Visual Studio](Building/build-msvc)
+- [Building Sbit Core with Visual Studio](Building/build-msvc)
 
 Development
 ---------------------
