@@ -49,7 +49,7 @@ module.exports = {
                     position: 'left',
                     label: 'Docs',
                 },
-                {to: '/blog/exchange', label: 'Blog', position: 'left'},
+                {to: '/blog/nft', label: 'Blog', position: 'left'},
             // Community
             {
                 type: 'dropdown',
