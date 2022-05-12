@@ -106,58 +106,58 @@ module.exports = {
 ## How to add Janus to Metamask
 
 Getting Janus to work with Metamask requires two things
-- [Configuring Metamask to point to Janus](metamask)
+- [Configuring Metamask to point to Janus](./metamask.md)
 - Locally signing transactions with a Metamask fork
   - [(Alpha) SBIT Metamask fork](https://github.com/SBit-Project/metamask-extension/releases)
 
 ## Supported ETH methods
 
--   [web3_clientVersion](pkg/transformer/web3_clientVersion.go)
--   [web3_sha3](pkg/transformer/web3_sha3.go)
--   [net_version](pkg/transformer/eth_net_version.go)
--   [net_listening](pkg/transformer/eth_net_listening.go)
--   [net_peerCount](pkg/transformer/eth_net_peerCount.go)
--   [eth_protocolVersion](pkg/transformer/eth_protocolVersion.go)
--   [eth_chainId](pkg/transformer/eth_chainId.go)
--   [eth_mining](pkg/transformer/eth_mining.go)
--   [eth_hashrate](pkg/transformer/eth_hashrate.go)
--   [eth_gasPrice](pkg/transformer/eth_gasPrice.go)
--   [eth_accounts](pkg/transformer/eth_accounts.go)
--   [eth_blockNumber](pkg/transformer/eth_blockNumber.go)
--   [eth_getBalance](pkg/transformer/eth_getBalance.go)
--   [eth_getStorageAt](pkg/transformer/eth_getStorageAt.go)
--   [eth_getTransactionCount](pkg/transformer/eth_getTransactionCount.go)
--   [eth_getCode](pkg/transformer/eth_getCode.go)
--   [eth_sign](pkg/transformer/eth_sign.go)
--   [eth_signTransaction](pkg/transformer/eth_signTransaction.go)
--   [eth_sendTransaction](pkg/transformer/eth_sendTransaction.go)
--   [eth_sendRawTransaction](pkg/transformer/eth_sendRawTransaction.go)
--   [eth_call](pkg/transformer/eth_call.go)
--   [eth_estimateGas](pkg/transformer/eth_estimateGas.go)
--   [eth_getBlockByHash](pkg/transformer/eth_getBlockByHash.go)
--   [eth_getBlockByNumber](pkg/transformer/eth_getBlockByNumber.go)
--   [eth_getTransactionByHash](pkg/transformer/eth_getTransactionByHash.go)
--   [eth_getTransactionByBlockHashAndIndex](pkg/transformer/eth_getTransactionByBlockHashAndIndex.go)
--   [eth_getTransactionByBlockNumberAndIndex](pkg/transformer/eth_getTransactionByBlockNumberAndIndex.go)
--   [eth_getTransactionReceipt](pkg/transformer/eth_getTransactionReceipt.go)
--   [eth_getUncleByBlockHashAndIndex](pkg/transformer/eth_getUncleByBlockHashAndIndex.go)
--   [eth_getCompilers](pkg/transformer/eth_getCompilers.go)
--   [eth_newFilter](pkg/transformer/eth_newFilter.go)
--   [eth_newBlockFilter](pkg/transformer/eth_newBlockFilter.go)
--   [eth_uninstallFilter](pkg/transformer/eth_uninstallFilter.go)
--   [eth_getFilterChanges](pkg/transformer/eth_getFilterChanges.go)
--   [eth_getFilterLogs](pkg/transformer/eth_getFilterLogs.go)
--   [eth_getLogs](pkg/transformer/eth_getLogs.go)
+-   [web3_clientVersion](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/web3_clientVersion.go)
+-   [web3_sha3](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/web3_sha3.go)
+-   [net_version](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_net_version.go)
+-   [net_listening](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_net_listening.go)
+-   [net_peerCount](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_net_peerCount.go)
+-   [eth_protocolVersion](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_protocolVersion.go)
+-   [eth_chainId](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_chainId.go)
+-   [eth_mining](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_mining.go)
+-   [eth_hashrate](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_hashrate.go)
+-   [eth_gasPrice](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_gasPrice.go)
+-   [eth_accounts](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_accounts.go)
+-   [eth_blockNumber](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_blockNumber.go)
+-   [eth_getBalance](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_getBalance.go)
+-   [eth_getStorageAt](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_getStorageAt.go)
+-   [eth_getTransactionCount](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_getTransactionCount.go)
+-   [eth_getCode](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_getCode.go)
+-   [eth_sign](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_sign.go)
+-   [eth_signTransaction](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_signTransaction.go)
+-   [eth_sendTransaction](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_sendTransaction.go)
+-   [eth_sendRawTransaction](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_sendRawTransaction.go)
+-   [eth_call](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_call.go)
+-   [eth_estimateGas](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_estimateGas.go)
+-   [eth_getBlockByHash](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_getBlockByHash.go)
+-   [eth_getBlockByNumber](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_getBlockByNumber.go)
+-   [eth_getTransactionByHash](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_getTransactionByHash.go)
+-   [eth_getTransactionByBlockHashAndIndex](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_getTransactionByBlockHashAndIndex.go)
+-   [eth_getTransactionByBlockNumberAndIndex](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_getTransactionByBlockNumberAndIndex.go)
+-   [eth_getTransactionReceipt](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_getTransactionReceipt.go)
+-   [eth_getUncleByBlockHashAndIndex](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_getUncleByBlockHashAndIndex.go)
+-   [eth_getCompilers](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_getCompilers.go)
+-   [eth_newFilter](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_newFilter.go)
+-   [eth_newBlockFilter](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_newBlockFilter.go)
+-   [eth_uninstallFilter](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_uninstallFilter.go)
+-   [eth_getFilterChanges](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_getFilterChanges.go)
+-   [eth_getFilterLogs](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_getFilterLogs.go)
+-   [eth_getLogs](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_getLogs.go)
 
 ## Websocket ETH methods (endpoint at /)
 
 -   (All the above methods)
--   [eth_subscribe](pkg/transformer/eth_subscribe.go) (only 'logs' for now)
--   [eth_unsubscribe](pkg/transformer/eth_unsubscribe.go)
+-   [eth_subscribe](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_subscribe.go) (only 'logs' for now)
+-   [eth_unsubscribe](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_unsubscribe.go)
 
 ## Janus methods
 
--   [sbit_getUTXOs](pkg/transformer/sbit_getUTXOs.go)
+-   [sbit_getUTXOs](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/sbit_getUTXOs.go)
 
 ## Development methods
 Use these to speed up development, but don't rely on them in your dapp
@@ -333,7 +333,7 @@ $ curl --header 'Content-Type: application/json' --data \
     - For contract address generation code, see [generateContractAddress](https://github.com/SBit-Project/sbit-ethers/blob/main/src/lib/helpers/utils.ts)
 - Account address generation differs from EVM chains
   - You really only need to worry about this if you need to use the same account address on different chains
-  - [eth_accounts](pkg/transformer/eth_accounts.go) and [(Beta) SBIT ethers-js library](https://github.com/SBit-Project/sbit-ethers) will abstract this away from you
+  - [eth_accounts](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_accounts.go) and [(Beta) SBIT ethers-js library](https://github.com/SBit-Project/sbit-ethers) will abstract this away from you
   - For account address generation code, see [computeAddress](https://github.com/SBit-Project/sbit-ethers/blob/main/src/lib/helpers/utils.ts)
 - Block hash is computed differently from EVM chains
   - If you are generating the blockhash from the block header, it will be wrong
@@ -357,15 +357,15 @@ $ curl --header 'Content-Type: application/json' --data \
 - Bitcoin input scripts
   - Bitcoin has many different types of scripts
     - For a detailed primer on this topic see [A breakdown of Bitcoin "standard" script types (crazy long)](https://www.reddit.com/r/Bitcoin/comments/jmiko9/a_breakdown_of_bitcoin_standard_script_types/)
-  - [eth_sendTransaction](/pkg/transformer/eth_sendTransaction.go) delegates transaction signing to SBIT so most input scripts should be supported
+  - [eth_sendTransaction](/https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_sendTransaction.go) delegates transaction signing to SBIT so most input scripts should be supported
   - [(Beta) SBIT ethers-js library](https://github.com/SBit-Project/sbit-ethers) deals with signing transactions locally and only supports Pay to public key hash (P2PKH) scripts, other script types will be ignored and not selected.
     - This can result in your spendable balance being lower than your actual balance.
     - Support for Pay to public key (P2PK) input scripts is on the roadmap
-- [eth_estimateGas](/pkg/transformer/eth_estimateGas.go)
+- [eth_estimateGas](/https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_estimateGas.go)
   - Gas estimation on SBIT is not perfect, so a buffer of 10% is added in Janus
   - Gas will be refunded in the block that your transaction is mined
     - Keep in mind that to re-use this gas refund, you must wait 2000 blocks
-- [eth_sendTransaction](/pkg/transformer/eth_sendTransaction.go)
+- [eth_sendTransaction](/https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_sendTransaction.go)
   - When trying to send all your SBIT Balance in a transaction, in EVM you would do value = total - (gas limit * gas price)
   - Since SBIT uses Bitcoin transactions, the cost of a transaction differs based on how many bytes are in the transaction
     - This means if you have many inputs in a transaction, it will cost more to send
