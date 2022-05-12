@@ -1,4 +1,7 @@
-# Spec
+---
+title: Specification
+sidebar_label: Specification
+---
 
 ## PUBKEY_ADDRESS / pubKeyHash
 | Network  | Decimal      | Hex      | Symbol    |
@@ -43,6 +46,8 @@
 | Testnet | 22301    | 22302    |
 | Signet  | 22201    | 22202    |
 | Regtest | 22401    | 22402    |
-| ZMQ     | 22501    |          |
 
+:::tip
+For ZMQ use 22501 
+:::
 

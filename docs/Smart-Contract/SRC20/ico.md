@@ -328,25 +328,25 @@ solar status
         txid: b11f5def8559a5c351a153f8f3b8eead23fb73bfc218fe951ac7de3205205972
      address: 92105c87931dea43d9901bd944a48d3b8a0268ad
    confirmed: true
-       owner: qf292iYbjJ41oMoArA3PrHpxTdAHuQsuAu
+       owner: sf292iYbjJ41oMoArA3PrHpxTdAHuQsuAu
 
 ✅  contracts/FlatPricing.sol
         txid: 2c327ebcbda2fae979b9d1c0a99973535c22bdec2bb9c96d80dea57b10c9b8ea
      address: 8f52355c4de8dc1d3104b3773aa8c3ca31f890d1
    confirmed: true
-       owner: qf292iYbjJ41oMoArA3PrHpxTdAHuQsuAu
+       owner: sf292iYbjJ41oMoArA3PrHpxTdAHuQsuAu
 
 ✅  FinalizeAgent
         txid: 4d56e06efe5ef4b124421cbc1bc6ff399e1fbce9175b58221f802bf12742835d
      address: c1ac5d69763da27e9c8fe319427c80a167298a6d
    confirmed: true
-       owner: qf292iYbjJ41oMoArA3PrHpxTdAHuQsuAu
+       owner: sf292iYbjJ41oMoArA3PrHpxTdAHuQsuAu
 
 ✅  Crowdsale
         txid: c99daf64a18fac29f006d88644e3e7d3c9abc8950d23f5f467b18a7da1766d26
      address: f96403c9431ed464dd0063d18756718ac78f1edb
    confirmed: true
-       owner: qf292iYbjJ41oMoArA3PrHpxTdAHuQsuAu
+       owner: sf292iYbjJ41oMoArA3PrHpxTdAHuQsuAu
 ```
 
 Make sure that all of them share the same owner. If not, make sure that the environment variable `SBIT_SENDER` is set to the owner address, and try again.
