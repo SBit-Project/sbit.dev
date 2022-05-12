@@ -357,15 +357,15 @@ $ curl --header 'Content-Type: application/json' --data \
 - Bitcoin input scripts
   - Bitcoin has many different types of scripts
     - For a detailed primer on this topic see [A breakdown of Bitcoin "standard" script types (crazy long)](https://www.reddit.com/r/Bitcoin/comments/jmiko9/a_breakdown_of_bitcoin_standard_script_types/)
-  - [eth_sendTransaction](/https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_sendTransaction.go) delegates transaction signing to SBIT so most input scripts should be supported
+  - [eth_sendTransaction](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_sendTransaction.go) delegates transaction signing to SBIT so most input scripts should be supported
   - [(Beta) SBIT ethers-js library](https://github.com/SBit-Project/sbit-ethers) deals with signing transactions locally and only supports Pay to public key hash (P2PKH) scripts, other script types will be ignored and not selected.
     - This can result in your spendable balance being lower than your actual balance.
     - Support for Pay to public key (P2PK) input scripts is on the roadmap
-- [eth_estimateGas](/https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_estimateGas.go)
+- [eth_estimateGas](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_estimateGas.go)
   - Gas estimation on SBIT is not perfect, so a buffer of 10% is added in Janus
   - Gas will be refunded in the block that your transaction is mined
     - Keep in mind that to re-use this gas refund, you must wait 2000 blocks
-- [eth_sendTransaction](/https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_sendTransaction.go)
+- [eth_sendTransaction](https://github.com/SBit-Project/janus/tree/master/pkg/transformer/eth_sendTransaction.go)
   - When trying to send all your SBIT Balance in a transaction, in EVM you would do value = total - (gas limit * gas price)
   - Since SBIT uses Bitcoin transactions, the cost of a transaction differs based on how many bytes are in the transaction
     - This means if you have many inputs in a transaction, it will cost more to send
