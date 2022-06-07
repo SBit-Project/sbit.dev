@@ -1,6 +1,5 @@
 <p align="center">
-    <img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%SBit-Project.github.io%2Fsbit.dev">
-    <a href="https://github.com/SBit-Project/sbit.dev/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/SBit-Project/sbit.dev"></a>
+    <img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2FSBit-Project.github.io%2Fsbit.dev">
 </p>
 
 # Website
