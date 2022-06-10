@@ -33,10 +33,10 @@ sidebar_label: Specification
 ## BIP32 - bech32 - netmagic
 | Network  | EXT_PUBLIC_KEY | EXT_SECRET_KEY | bech32   | netmagic |
 |----------|----------------|----------------|----------|----------|
-| Mainnet  | 0x0878C22A     | 0x0878BDA8     | sc       | d2b1c5a4 |
-| Testnet  | 0x084226AB     | 0x08423661     | ts       | 2b335671 |
-| Signet   | 0x081527AD     | 0x08153345     | ts       |          |
-| Regtest  | 0x254647BA     | 0x25464322     | scrt     | acb3d41e |
+| Mainnet  | 0488B21E       | 0488ADE4       | sc       | d2b1c5a4 |
+| Testnet  | 043587CF       | 04358394       | ts       | 2b335671 |
+| Signet   | 043587CF       | 04358394       | ts       |          |
+| Regtest  | 043587CF       | 04358394       | scrt     | acb3d41e |
 
 
 ## Ports
